@@ -1,0 +1,433 @@
+{
+  "schema": "QNE-V4/1",
+  "created": "2026-11-01T15:50:02.736Z",
+  "node": "v22.16.0",
+  "platform": "linux",
+  "arch": "x64",
+  "cpu": "INTEL(R) XEON(R) PLATINUM 8573C",
+  "target_speedup_vs_v3": 100,
+  "note": "Le backend C++ utilise double, RK4 et une association FP identiques a V3; -ffp-contract=off -fno-fast-math. Vitesse natif calculee exclusivement sur temps interne au processus, sans compilation/lancement. Temps JS sur performance.now().",
+  "scope": "Performance de calcul RK4 seulement, pas performance globale du systeme QNE.",
+  "validations": [
+    {
+      "N": 4,
+      "steps": 200,
+      "seed": 0,
+      "ok": true,
+      "sha256": "0a0e26f902ab097390065e7af8602bfcdda4d37a6d1dcf538b53410eb79cb8a4"
+    },
+    {
+      "N": 4,
+      "steps": 200,
+      "seed": 1,
+      "ok": true,
+      "sha256": "99b536d89ed374593e6b13441716047303ab06619bc70ebdfc304e9f36410370"
+    },
+    {
+      "N": 4,
+      "steps": 200,
+      "seed": 305419896,
+      "ok": true,
+      "sha256": "68c6028d1f892d73d81ac46e286a5724c0e5ede6980ac8c8339592563cbb89af"
+    },
+    {
+      "N": 4,
+      "steps": 200,
+      "seed": 3405648436,
+      "ok": true,
+      "sha256": "a1fb993072049241762a87b095fbd06ef1deea54ec262f2161616e5eaf828717"
+    },
+    {
+      "N": 5,
+      "steps": 200,
+      "seed": 0,
+      "ok": true,
+      "sha256": "18c9d3ff5339b4e43f3e3384b6e8c57cb7c1ddb2775cc522dd288e12d796af13"
+    },
+    {
+      "N": 5,
+      "steps": 200,
+      "seed": 1,
+      "ok": true,
+      "sha256": "9a29de3b39876029ae0694aeb3cecc5fdbc2f35481a73195186ee16db82f9079"
+    },
+    {
+      "N": 5,
+      "steps": 200,
+      "seed": 305419896,
+      "ok": true,
+      "sha256": "dcdb50c7ccdfcf6444989e039a3aeef499eb58f30726e40ac2a3d3c0ea8a9ea7"
+    },
+    {
+      "N": 5,
+      "steps": 200,
+      "seed": 3405648436,
+      "ok": true,
+      "sha256": "0ea903bf36ea94e84812d35e24920ba9aaa7d254b899c83631c74f5b56a0fca4"
+    },
+    {
+      "N": 6,
+      "steps": 200,
+      "seed": 0,
+      "ok": true,
+      "sha256": "f00074a664dfee629e99e8a6fa7c0dbb65447c488186d919009fb39f85936702"
+    },
+    {
+      "N": 6,
+      "steps": 200,
+      "seed": 1,
+      "ok": true,
+      "sha256": "5be1cb15899b617f4570b1109e79a6657ca7bf9211e4eda21419eeec767dcb73"
+    },
+    {
+      "N": 6,
+      "steps": 200,
+      "seed": 305419896,
+      "ok": true,
+      "sha256": "4417ea12a73ac707a153f0d40a13fd9fbcd7fa43f3ef11c69cb7931b1a204c39"
+    },
+    {
+      "N": 6,
+      "steps": 200,
+      "seed": 3405648436,
+      "ok": true,
+      "sha256": "6884cc2a8c04d6617598abdadccc389191f3ae0da973a974d139a9bec8a1bb51"
+    },
+    {
+      "N": 7,
+      "steps": 200,
+      "seed": 0,
+      "ok": true,
+      "sha256": "c053c76ffdb1e048d0f17a1ada021d0d23b143e9e2f21043834a1befc0c1f595"
+    },
+    {
+      "N": 7,
+      "steps": 200,
+      "seed": 1,
+      "ok": true,
+      "sha256": "6b0327262d2279e390d78404bab6404fb7ff07bc2b03877b013d262075ccd4cd"
+    },
+    {
+      "N": 7,
+      "steps": 200,
+      "seed": 305419896,
+      "ok": true,
+      "sha256": "8a7ddc882bd71c54db6b957dce5b441435b9d8e825f78fe279b5de8fabcca601"
+    },
+    {
+      "N": 7,
+      "steps": 200,
+      "seed": 3405648436,
+      "ok": true,
+      "sha256": "d4b2a4b2ca0a53ffde75797acce6b40a807266702d0b16ee1aee2a023e7c36be"
+    },
+    {
+      "N": 40,
+      "steps": 200,
+      "seed": 0,
+      "ok": true,
+      "sha256": "00df00c5aba5ab35a16004b47e9cfb3ef6fa9e0325e5af162438bb5d3ecfabdf"
+    },
+    {
+      "N": 40,
+      "steps": 200,
+      "seed": 1,
+      "ok": true,
+      "sha256": "e1e9f4c760a2aa231a1c4ad280c8bec293715ee3d98c1035d58b41401f548d80"
+    },
+    {
+      "N": 40,
+      "steps": 200,
+      "seed": 305419896,
+      "ok": true,
+      "sha256": "0d96291f8addca98fc75b1b2ed99689006f64f31929808cc6f181ef3525026f7"
+    },
+    {
+      "N": 40,
+      "steps": 200,
+      "seed": 3405648436,
+      "ok": true,
+      "sha256": "1fa00bef928a071371e8b6c1e9a8eaced937bf5cdae0105457213a0f9963c0d7"
+    },
+    {
+      "N": 100,
+      "steps": 200,
+      "seed": 0,
+      "ok": true,
+      "sha256": "b5d902be650510d42e5e370aa37e098179c5a6e4b88b9f6905c0f9726e61b10d"
+    },
+    {
+      "N": 100,
+      "steps": 200,
+      "seed": 1,
+      "ok": true,
+      "sha256": "2d65943f36452790ba75b04bf3a34705ab898c8bb1dc5590a56fca8398e7f4cb"
+    },
+    {
+      "N": 100,
+      "steps": 200,
+      "seed": 305419896,
+      "ok": true,
+      "sha256": "77721e50c4e73d411460ed9d13b24603e388b40f3629cc1495ce1b754f78efc4"
+    },
+    {
+      "N": 100,
+      "steps": 200,
+      "seed": 3405648436,
+      "ok": true,
+      "sha256": "b75de34b7534a8546e2e05caf844f54aab555a6ab52aca91edaa81a691ed93e2"
+    },
+    {
+      "N": 4096,
+      "steps": 40,
+      "seed": 0,
+      "ok": true,
+      "sha256": "3700f1af7e83bb4520722db2ff40157cc91d99f8e316f9b5c97d981caaa66467"
+    },
+    {
+      "N": 4096,
+      "steps": 40,
+      "seed": 1,
+      "ok": true,
+      "sha256": "a721f9755b1c2ab56fe74f84f84a33186364697452a781fca77b77e2a5d6a043"
+    },
+    {
+      "N": 4096,
+      "steps": 40,
+      "seed": 305419896,
+      "ok": true,
+      "sha256": "8e3f301c8f7411d3ef4edfb4edaef04a5fea63fb1cfea80d4e8214fc4f4d4e50"
+    },
+    {
+      "N": 4096,
+      "steps": 40,
+      "seed": 3405648436,
+      "ok": true,
+      "sha256": "63150c0de016c6beb184e3a36d78c149cb1726e4b48963da0928f961b82ffdd0"
+    },
+    {
+      "N": 65536,
+      "steps": 8,
+      "seed": 0,
+      "ok": true,
+      "sha256": "22264f6189ce6f2596287ec1b7bec4a9e9019380314fea2edb6e53d2b82fddc3"
+    },
+    {
+      "N": 65536,
+      "steps": 8,
+      "seed": 1,
+      "ok": true,
+      "sha256": "06b896952cff65cf48b46de6079c74b302e953c25908a13e49f6461b63e8457c"
+    },
+    {
+      "N": 65536,
+      "steps": 8,
+      "seed": 305419896,
+      "ok": true,
+      "sha256": "0c7a0f81f12db37471e3d6c4149c4035b6b680d4bc92dd50c5f3dc008e6f7a25"
+    },
+    {
+      "N": 65536,
+      "steps": 8,
+      "seed": 3405648436,
+      "ok": true,
+      "sha256": "720a9db38b8be07856c3df49081acff9b99877b6a773c60576056c422868c50e"
+    }
+  ],
+  "benchmarks": [
+    {
+      "N": 40,
+      "steps": 4000,
+      "repetitions": 7,
+      "median_ms": {
+        "original": 5.669295000000034,
+        "v3": 2.5566969999999856,
+        "native": 0.635589
+      },
+      "mvariables_s": {
+        "original": 28.222203995381975,
+        "v3": 62.58074382689888,
+        "native": 251.73500485376556
+      },
+      "gain_v3_sur_original": 2.217429362963255,
+      "gain_natif_sur_v3": 4.0225633231537765,
+      "gain_natif_sur_original": 8.919750027140234,
+      "sha256_identique": "addf548fb90816a59d4d5e4a9076342e4cc72fb9e1bce896ea040d8f848b05b3",
+      "timings_ms": {
+        "original": [
+          19.621508000000006,
+          5.3396379999999795,
+          5.214631999999995,
+          5.011392999999998,
+          17.32410900000002,
+          6.1235659999999825,
+          5.669295000000034
+        ],
+        "v3": [
+          2.716136000000006,
+          2.5612409999999954,
+          2.211351000000036,
+          1.9051230000000032,
+          3.74379399999998,
+          2.5566969999999856,
+          2.0857260000000224
+        ],
+        "native": [
+          0.564914,
+          0.759453,
+          0.711218,
+          0.484523,
+          0.635589,
+          0.498652,
+          1.032508
+        ]
+      }
+    },
+    {
+      "N": 4096,
+      "steps": 400,
+      "repetitions": 7,
+      "median_ms": {
+        "original": 64.77893900000015,
+        "v3": 26.042907000000014,
+        "native": 8.604832
+      },
+      "mvariables_s": {
+        "original": 25.2921709631582,
+        "v3": 62.911563597719685,
+        "native": 190.4046470634174
+      },
+      "gain_v3_sur_original": 2.4873927860664753,
+      "gain_natif_sur_v3": 3.026544504297122,
+      "gain_natif_sur_original": 7.528204966697799,
+      "sha256_identique": "dbf51d5dccac84eb04d6c46b2cb98dc22d85023fa6a0d9c98c9548fefe218dcb",
+      "timings_ms": {
+        "original": [
+          65.26372200000003,
+          75.83703600000001,
+          58.18479000000002,
+          64.77893900000015,
+          57.7402689999999,
+          73.18415000000005,
+          60.67589300000009
+        ],
+        "v3": [
+          22.368562999999995,
+          28.72272499999997,
+          26.042907000000014,
+          28.956922000000077,
+          30.432152000000087,
+          25.520451999999977,
+          25.636748000000125
+        ],
+        "native": [
+          8.147904,
+          8.604832,
+          13.208208,
+          9.749874,
+          8.593873,
+          19.697583,
+          8.282759
+        ]
+      }
+    },
+    {
+      "N": 65536,
+      "steps": 80,
+      "repetitions": 7,
+      "median_ms": {
+        "original": 255.27947700000004,
+        "v3": 138.08451499999956,
+        "native": 44.669209
+      },
+      "mvariables_s": {
+        "original": 20.53780453334288,
+        "v3": 37.968631022819736,
+        "native": 117.37122992260731
+      },
+      "gain_v3_sur_original": 1.8487190761397168,
+      "gain_natif_sur_v3": 3.0912684171326954,
+      "gain_natif_sur_original": 5.7148868922214415,
+      "sha256_identique": "b7c01d84b5e65a35fa555bdc54520fd6ab1d550cead18515620bac913516a310",
+      "timings_ms": {
+        "original": [
+          221.36507800000027,
+          255.27947700000004,
+          282.11751600000025,
+          273.29181400000016,
+          265.40865699999995,
+          217.75120500000048,
+          232.81444699999975
+        ],
+        "v3": [
+          111.1450719999998,
+          153.40177799999992,
+          154.65975900000012,
+          174.2725019999998,
+          135.0836220000001,
+          138.08451499999956,
+          117.01911599999949
+        ],
+        "native": [
+          44.669209,
+          37.427978,
+          59.831289,
+          64.839468,
+          38.062893,
+          39.624303,
+          62.824686
+        ]
+      }
+    },
+    {
+      "N": 262144,
+      "steps": 30,
+      "repetitions": 7,
+      "median_ms": {
+        "original": 324.25179600000047,
+        "v3": 171.8649770000011,
+        "native": 80.575669
+      },
+      "mvariables_s": {
+        "original": 24.253743840481267,
+        "v3": 45.75871208477775,
+        "native": 97.60167179002882
+      },
+      "gain_v3_sur_original": 1.8866659261240784,
+      "gain_natif_sur_v3": 2.132963699004486,
+      "gain_natif_sur_original": 4.024189932571338,
+      "sha256_identique": "a7a3eb1d3564cb8c1301f49a623ada1dc749e6eb718ebf3e036001adbb30b207",
+      "timings_ms": {
+        "original": [
+          329.8632799999996,
+          290.6206910000001,
+          303.0237840000009,
+          476.59973999999966,
+          293.75617799999964,
+          506.55878200000006,
+          324.25179600000047
+        ],
+        "v3": [
+          158.99545900000157,
+          174.04840799999874,
+          186.41257700000097,
+          164.06211500000063,
+          145.94413800000075,
+          171.8649770000011,
+          174.6835740000006
+        ],
+        "native": [
+          64.904134,
+          66.171388,
+          81.900471,
+          100.37576,
+          68.613665,
+          85.767512,
+          80.575669
+        ]
+      }
+    }
+  ],
+  "status": "PASSED",
+  "target_reached": false
+}

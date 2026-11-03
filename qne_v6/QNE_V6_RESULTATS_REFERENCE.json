@@ -1,0 +1,596 @@
+{
+  "version": "QNE-V6/1",
+  "date": "2026-11-01T16:08:30.311Z",
+  "node": "v22.16.0",
+  "platform": "linux",
+  "arch": "x64",
+  "cpu": "INTEL(R) XEON(R) PLATINUM 8573C",
+  "method": "Lorenz-96 RK4, F=8, dt=0.01, float64; C++ strict FP; V6 hybride direct / blocs multithread",
+  "note": "Mesure locale. Des etats binaires identiques ne prouvent pas la fidelite a la solution continue. Le multithread peut etre plus lent selon la machine.",
+  "status": "PASSED",
+  "validations": [
+    {
+      "N": 4,
+      "steps": 200,
+      "seed": 0,
+      "sha256": "0a0e26f902ab097390065e7af8602bfcdda4d37a6d1dcf538b53410eb79cb8a4",
+      "identical": true
+    },
+    {
+      "N": 4,
+      "steps": 200,
+      "seed": 1,
+      "sha256": "99b536d89ed374593e6b13441716047303ab06619bc70ebdfc304e9f36410370",
+      "identical": true
+    },
+    {
+      "N": 4,
+      "steps": 200,
+      "seed": 305419896,
+      "sha256": "68c6028d1f892d73d81ac46e286a5724c0e5ede6980ac8c8339592563cbb89af",
+      "identical": true
+    },
+    {
+      "N": 4,
+      "steps": 200,
+      "seed": 3405648436,
+      "sha256": "a1fb993072049241762a87b095fbd06ef1deea54ec262f2161616e5eaf828717",
+      "identical": true
+    },
+    {
+      "N": 5,
+      "steps": 200,
+      "seed": 0,
+      "sha256": "18c9d3ff5339b4e43f3e3384b6e8c57cb7c1ddb2775cc522dd288e12d796af13",
+      "identical": true
+    },
+    {
+      "N": 5,
+      "steps": 200,
+      "seed": 1,
+      "sha256": "9a29de3b39876029ae0694aeb3cecc5fdbc2f35481a73195186ee16db82f9079",
+      "identical": true
+    },
+    {
+      "N": 5,
+      "steps": 200,
+      "seed": 305419896,
+      "sha256": "dcdb50c7ccdfcf6444989e039a3aeef499eb58f30726e40ac2a3d3c0ea8a9ea7",
+      "identical": true
+    },
+    {
+      "N": 5,
+      "steps": 200,
+      "seed": 3405648436,
+      "sha256": "0ea903bf36ea94e84812d35e24920ba9aaa7d254b899c83631c74f5b56a0fca4",
+      "identical": true
+    },
+    {
+      "N": 7,
+      "steps": 200,
+      "seed": 0,
+      "sha256": "c053c76ffdb1e048d0f17a1ada021d0d23b143e9e2f21043834a1befc0c1f595",
+      "identical": true
+    },
+    {
+      "N": 7,
+      "steps": 200,
+      "seed": 1,
+      "sha256": "6b0327262d2279e390d78404bab6404fb7ff07bc2b03877b013d262075ccd4cd",
+      "identical": true
+    },
+    {
+      "N": 7,
+      "steps": 200,
+      "seed": 305419896,
+      "sha256": "8a7ddc882bd71c54db6b957dce5b441435b9d8e825f78fe279b5de8fabcca601",
+      "identical": true
+    },
+    {
+      "N": 7,
+      "steps": 200,
+      "seed": 3405648436,
+      "sha256": "d4b2a4b2ca0a53ffde75797acce6b40a807266702d0b16ee1aee2a023e7c36be",
+      "identical": true
+    },
+    {
+      "N": 40,
+      "steps": 200,
+      "seed": 0,
+      "sha256": "00df00c5aba5ab35a16004b47e9cfb3ef6fa9e0325e5af162438bb5d3ecfabdf",
+      "identical": true
+    },
+    {
+      "N": 40,
+      "steps": 200,
+      "seed": 1,
+      "sha256": "e1e9f4c760a2aa231a1c4ad280c8bec293715ee3d98c1035d58b41401f548d80",
+      "identical": true
+    },
+    {
+      "N": 40,
+      "steps": 200,
+      "seed": 305419896,
+      "sha256": "0d96291f8addca98fc75b1b2ed99689006f64f31929808cc6f181ef3525026f7",
+      "identical": true
+    },
+    {
+      "N": 40,
+      "steps": 200,
+      "seed": 3405648436,
+      "sha256": "1fa00bef928a071371e8b6c1e9a8eaced937bf5cdae0105457213a0f9963c0d7",
+      "identical": true
+    },
+    {
+      "N": 4096,
+      "steps": 40,
+      "seed": 0,
+      "sha256": "3700f1af7e83bb4520722db2ff40157cc91d99f8e316f9b5c97d981caaa66467",
+      "identical": true
+    },
+    {
+      "N": 4096,
+      "steps": 40,
+      "seed": 1,
+      "sha256": "a721f9755b1c2ab56fe74f84f84a33186364697452a781fca77b77e2a5d6a043",
+      "identical": true
+    },
+    {
+      "N": 4096,
+      "steps": 40,
+      "seed": 305419896,
+      "sha256": "8e3f301c8f7411d3ef4edfb4edaef04a5fea63fb1cfea80d4e8214fc4f4d4e50",
+      "identical": true
+    },
+    {
+      "N": 4096,
+      "steps": 40,
+      "seed": 3405648436,
+      "sha256": "63150c0de016c6beb184e3a36d78c149cb1726e4b48963da0928f961b82ffdd0",
+      "identical": true
+    },
+    {
+      "N": 8192,
+      "steps": 8,
+      "seed": 0,
+      "sha256": "c1fcf3e5674390610f6c5cd6287ea9446b7efe594a1b0858c0a7931b54416922",
+      "identical": true
+    },
+    {
+      "N": 8192,
+      "steps": 8,
+      "seed": 1,
+      "sha256": "5d98bb666b6dbc3a71143718ddc2c3994004ffac47a21888c409f86492613d3c",
+      "identical": true
+    },
+    {
+      "N": 8192,
+      "steps": 8,
+      "seed": 305419896,
+      "sha256": "15f04e2bdc48a137d0d4afdaef8044fe6e50541c5a3fc2c541fe9ff6d7c6c8aa",
+      "identical": true
+    },
+    {
+      "N": 8192,
+      "steps": 8,
+      "seed": 3405648436,
+      "sha256": "f702626b3833486e6dcb6ec65f90f4def39d41ea9215d0bdc528aea259a3192d",
+      "identical": true
+    },
+    {
+      "N": 65536,
+      "steps": 8,
+      "seed": 0,
+      "sha256": "22264f6189ce6f2596287ec1b7bec4a9e9019380314fea2edb6e53d2b82fddc3",
+      "identical": true
+    },
+    {
+      "N": 65536,
+      "steps": 8,
+      "seed": 1,
+      "sha256": "06b896952cff65cf48b46de6079c74b302e953c25908a13e49f6461b63e8457c",
+      "identical": true
+    },
+    {
+      "N": 65536,
+      "steps": 8,
+      "seed": 305419896,
+      "sha256": "0c7a0f81f12db37471e3d6c4149c4035b6b680d4bc92dd50c5f3dc008e6f7a25",
+      "identical": true
+    },
+    {
+      "N": 65536,
+      "steps": 8,
+      "seed": 3405648436,
+      "sha256": "720a9db38b8be07856c3df49081acff9b99877b6a773c60576056c422868c50e",
+      "identical": true
+    },
+    {
+      "N": 131071,
+      "steps": 8,
+      "seed": 0,
+      "sha256": "fa5c2c9a524a2f937bb6f021fa1c079fad1ccc0fa09bfc73a9db75e33d8c827d",
+      "identical": true
+    },
+    {
+      "N": 131071,
+      "steps": 8,
+      "seed": 1,
+      "sha256": "4eb9da2baeec0c6236248c0e0bad4d83e20a2d257338c34a10f714175a5d4027",
+      "identical": true
+    },
+    {
+      "N": 131071,
+      "steps": 8,
+      "seed": 305419896,
+      "sha256": "df487527bde484a712d914a776e0742c775215f31f6c49089f5c36e0170f48fd",
+      "identical": true
+    },
+    {
+      "N": 131071,
+      "steps": 8,
+      "seed": 3405648436,
+      "sha256": "954fc1f3b1b780740c59072ac4852b006e5c2491624670cde1a8729c2a5368d0",
+      "identical": true
+    },
+    {
+      "N": 131072,
+      "steps": 8,
+      "seed": 0,
+      "sha256": "944b8db107a1e1e209cfa69b080c3fb17b1fbeb5dd4f5e3bf1e1e555962600f5",
+      "identical": true
+    },
+    {
+      "N": 131072,
+      "steps": 8,
+      "seed": 1,
+      "sha256": "17049f7f3b269425c44ad5d857a4fa59a726025ad6bbfd1091aa0d9931142275",
+      "identical": true
+    },
+    {
+      "N": 131072,
+      "steps": 8,
+      "seed": 305419896,
+      "sha256": "23a5d2e7214bc47cc3995262a9f591df774c1983cad5466286a410d0e25f494f",
+      "identical": true
+    },
+    {
+      "N": 131072,
+      "steps": 8,
+      "seed": 3405648436,
+      "sha256": "0b202798f20c4ad7e819c7a1c9217f9cf96a0a1fc392e119272c135227582785",
+      "identical": true
+    },
+    {
+      "N": 131073,
+      "steps": 8,
+      "seed": 0,
+      "sha256": "fcaca0cb34d5087d6082702b3344b6e14b87738ebf029b933f50f70fb08c8464",
+      "identical": true
+    },
+    {
+      "N": 131073,
+      "steps": 8,
+      "seed": 1,
+      "sha256": "6369466e3e643d511a1ed4b0f95c22261e9822159a7bff8fe265ab6b9d96f314",
+      "identical": true
+    },
+    {
+      "N": 131073,
+      "steps": 8,
+      "seed": 305419896,
+      "sha256": "226119f017b39b903176ecd9c8918742917a2eb07133267295867780814ea7fb",
+      "identical": true
+    },
+    {
+      "N": 131073,
+      "steps": 8,
+      "seed": 3405648436,
+      "sha256": "30eece855d7d330e9a77731f1585710cdb99dc025e1e91356059fed8b2eae6ef",
+      "identical": true
+    },
+    {
+      "N": 262144,
+      "steps": 8,
+      "seed": 0,
+      "sha256": "6ecfef921f3ba32db1604a420290f52f4ffbd077d834d58edc333fdd6884e599",
+      "identical": true
+    },
+    {
+      "N": 262144,
+      "steps": 8,
+      "seed": 1,
+      "sha256": "b3644caf5aa79cdb85948685e5778cfc01cc3746390e239ab5885d6070ff1be2",
+      "identical": true
+    },
+    {
+      "N": 262144,
+      "steps": 8,
+      "seed": 305419896,
+      "sha256": "e9d3f32ac7853f9ffd4853fe65f83d96dd51c6140323529a412959b081baa271",
+      "identical": true
+    },
+    {
+      "N": 262144,
+      "steps": 8,
+      "seed": 3405648436,
+      "sha256": "d0741f16263572d488c5e9a238efc5569b9fd367d7c0413cdd488d0bb32b3da4",
+      "identical": true
+    },
+    {
+      "N": 1048576,
+      "steps": 8,
+      "seed": 0,
+      "sha256": "571e21f2cf0cd443598e99e02c11b61170936dd984838a4767fbe73c5af27c43",
+      "identical": true
+    },
+    {
+      "N": 1048576,
+      "steps": 8,
+      "seed": 1,
+      "sha256": "a3c1b38ea6ed5cc435dcedc68ed9b9f785c15a1ef30094e08417b206c28b8b14",
+      "identical": true
+    },
+    {
+      "N": 1048576,
+      "steps": 8,
+      "seed": 305419896,
+      "sha256": "652ed8843c462329b7f9d63ada437a685698da2f726b6bd03ec3d57b5ddc2025",
+      "identical": true
+    },
+    {
+      "N": 1048576,
+      "steps": 8,
+      "seed": 3405648436,
+      "sha256": "763639723ad7dbd8e4e204cc7f1ba849421d19a164670cc5749c6146d4542495",
+      "identical": true
+    }
+  ],
+  "benchmarks": [
+    {
+      "N": 40,
+      "steps": 4000,
+      "repetitions": 3,
+      "median_ms": {
+        "v4": 0.514026,
+        "v5": 0.677585,
+        "v6t1": 0.593952,
+        "v6t2": 1.482158,
+        "v6t4": 0.484529
+      },
+      "millions_per_second": {
+        "v4": 311.26830160342087,
+        "v5": 236.13273611428824,
+        "v6t1": 269.3820376057324,
+        "v6t2": 107.95070431087643,
+        "v6t4": 330.21759275502603
+      },
+      "speedup_over_v4": 1.0608776770843438,
+      "winner": "v6t4",
+      "sha256_common": "addf548fb90816a59d4d5e4a9076342e4cc72fb9e1bce896ea040d8f848b05b3",
+      "times_ms": {
+        "v4": [
+          0.477916,
+          1.09295,
+          0.514026
+        ],
+        "v5": [
+          0.677585,
+          0.488526,
+          0.834829
+        ],
+        "v6t1": [
+          0.575383,
+          0.593952,
+          0.770035
+        ],
+        "v6t2": [
+          1.482158,
+          3.326236,
+          1.141392
+        ],
+        "v6t4": [
+          0.896733,
+          0.484529,
+          0.483666
+        ]
+      }
+    },
+    {
+      "N": 4096,
+      "steps": 400,
+      "repetitions": 3,
+      "median_ms": {
+        "v4": 10.226376,
+        "v5": 8.488999,
+        "v6t1": 9.321135,
+        "v6t2": 9.612555,
+        "v6t4": 10.428013
+      },
+      "millions_per_second": {
+        "v4": 160.2131586008572,
+        "v5": 193.00273212424693,
+        "v6t1": 175.77258563468934,
+        "v6t2": 170.44375818915992,
+        "v6t4": 157.11526251453657
+      },
+      "speedup_over_v4": 1.2046621751280688,
+      "winner": "v5",
+      "sha256_common": "dbf51d5dccac84eb04d6c46b2cb98dc22d85023fa6a0d9c98c9548fefe218dcb",
+      "times_ms": {
+        "v4": [
+          8.160397,
+          15.329328,
+          10.226376
+        ],
+        "v5": [
+          8.164464,
+          10.056272,
+          8.488999
+        ],
+        "v6t1": [
+          9.321135,
+          9.46536,
+          8.902574
+        ],
+        "v6t2": [
+          16.749535,
+          9.612555,
+          9.443496
+        ],
+        "v6t4": [
+          9.021745,
+          10.428013,
+          13.178848
+        ]
+      }
+    },
+    {
+      "N": 65536,
+      "steps": 80,
+      "repetitions": 3,
+      "median_ms": {
+        "v4": 39.188813,
+        "v5": 25.106273,
+        "v6t1": 48.457472,
+        "v6t2": 53.76712,
+        "v6t4": 40.920253
+      },
+      "millions_per_second": {
+        "v4": 133.7851187276328,
+        "v5": 208.82749104178066,
+        "v6t1": 108.19549150232186,
+        "v6t2": 97.51089513442416,
+        "v6t4": 128.1243300230817
+      },
+      "speedup_over_v4": 1.5609171859160458,
+      "winner": "v5",
+      "sha256_common": "b7c01d84b5e65a35fa555bdc54520fd6ab1d550cead18515620bac913516a310",
+      "times_ms": {
+        "v4": [
+          39.188813,
+          38.340342,
+          63.783096
+        ],
+        "v5": [
+          35.150272,
+          25.106273,
+          24.741768
+        ],
+        "v6t1": [
+          48.457472,
+          31.284429,
+          137.68836
+        ],
+        "v6t2": [
+          65.333515,
+          40.837043,
+          53.76712
+        ],
+        "v6t4": [
+          48.112506,
+          32.202991,
+          40.920253
+        ]
+      }
+    },
+    {
+      "N": 262144,
+      "steps": 30,
+      "repetitions": 3,
+      "median_ms": {
+        "v4": 59.365492,
+        "v5": 36.598714,
+        "v6t1": 38.15394,
+        "v6t2": 51.385051,
+        "v6t4": 23.488747
+      },
+      "millions_per_second": {
+        "v4": 132.4729187791453,
+        "v5": 214.8796812915339,
+        "v6t1": 206.12078333194424,
+        "v6t2": 153.04684625106242,
+        "v6t4": 334.8122400909678
+      },
+      "speedup_over_v4": 2.527401397784224,
+      "winner": "v6t4",
+      "sha256_common": "a7a3eb1d3564cb8c1301f49a623ada1dc749e6eb718ebf3e036001adbb30b207",
+      "times_ms": {
+        "v4": [
+          55.6557,
+          68.966763,
+          59.365492
+        ],
+        "v5": [
+          44.931296,
+          36.598714,
+          35.205779
+        ],
+        "v6t1": [
+          53.432088,
+          38.15394,
+          32.856737
+        ],
+        "v6t2": [
+          51.385051,
+          24.957481,
+          79.507789
+        ],
+        "v6t4": [
+          26.696259,
+          20.516456,
+          23.488747
+        ]
+      }
+    },
+    {
+      "N": 1048576,
+      "steps": 10,
+      "repetitions": 3,
+      "median_ms": {
+        "v4": 149.122832,
+        "v5": 72.357194,
+        "v6t1": 51.230389,
+        "v6t2": 29.54353,
+        "v6t4": 27.414059
+      },
+      "millions_per_second": {
+        "v4": 70.3162611611346,
+        "v5": 144.9166201773938,
+        "v6t1": 204.67851610496263,
+        "v6t2": 354.92576547216936,
+        "v6t4": 382.4957114158104
+      },
+      "speedup_over_v4": 5.439648028772389,
+      "winner": "v6t4",
+      "sha256_common": "80665e5bc48798b833f44581328faf1a5ce20e530443a6d28ab0ff5a4b17a2ee",
+      "times_ms": {
+        "v4": [
+          248.101491,
+          111.548732,
+          149.122832
+        ],
+        "v5": [
+          50.713648,
+          76.895914,
+          72.357194
+        ],
+        "v6t1": [
+          51.230389,
+          46.014848,
+          57.638226
+        ],
+        "v6t2": [
+          50.512242,
+          29.308457,
+          29.54353
+        ],
+        "v6t4": [
+          28.99919,
+          26.181544,
+          27.414059
+        ]
+      }
+    }
+  ]
+}

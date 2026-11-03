@@ -1,0 +1,493 @@
+{
+  "schema": "QNE-V2/1",
+  "created": "2026-11-01T15:37:06.083Z",
+  "node": "v26.3.1",
+  "arch": "arm64",
+  "platform": "android",
+  "cpu": "inconnu",
+  "notes": [
+    "Les benchmarks sont locaux a cette machine.",
+    "EXACT signifie identite des operations dans GF(2^128), pas precision infinie du RK4.",
+    "La reduction de E modulo 128 necessite le test d irreductibilite de P128."
+  ],
+  "tests": [
+    {
+      "name": "Irreductibilite p=0x87 (Rabin)",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Irreductibilite p reciproque LFSR (Rabin)",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Carre LUT vs reference BigInt #1",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Carre LUT vs reference BigInt #2",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Carre LUT vs reference BigInt #3",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Carre LUT vs reference BigInt #4",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Carre LUT vs reference BigInt #5",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Carre LUT vs reference BigInt #6",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Carre LUT vs reference BigInt #7",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Carre LUT vs reference BigInt #8",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Carre LUT vs reference BigInt #9",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Carre LUT vs reference BigInt #10",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Carre LUT vs reference BigInt #11",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Carre LUT vs reference BigInt #12",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Carre LUT vs reference BigInt #13",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Carre LUT vs reference BigInt #14",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Carre LUT vs reference BigInt #15",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Carre LUT vs reference BigInt #16",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Carre LUT vs reference BigInt #17",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Carre LUT vs reference BigInt #18",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Carre LUT vs reference BigInt #19",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Carre LUT vs reference BigInt #20",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Carre LUT vs reference BigInt #21",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Carre LUT vs reference BigInt #22",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Carre LUT vs reference BigInt #23",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Carre LUT vs reference BigInt #24",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Carre LUT vs reference BigInt #25",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Carre LUT vs reference BigInt #26",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Carre LUT vs reference BigInt #27",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Carre LUT vs reference BigInt #28",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Carre LUT vs reference BigInt #29",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Carre LUT vs reference BigInt #30",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Carre LUT vs reference BigInt #31",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Carre LUT vs reference BigInt #32",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Saut champ GF(2^128) 2^0 vs 1 pas directs",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Saut LFSR CORRIGE 2^0 vs LFSR original",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Saut champ GF(2^128) 2^1 vs 2 pas directs",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Saut LFSR CORRIGE 2^1 vs LFSR original",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Saut champ GF(2^128) 2^2 vs 4 pas directs",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Saut LFSR CORRIGE 2^2 vs LFSR original",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Saut champ GF(2^128) 2^3 vs 8 pas directs",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Saut LFSR CORRIGE 2^3 vs LFSR original",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Saut champ GF(2^128) 2^4 vs 16 pas directs",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Saut LFSR CORRIGE 2^4 vs LFSR original",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Saut champ GF(2^128) 2^5 vs 32 pas directs",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Saut LFSR CORRIGE 2^5 vs LFSR original",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Saut champ GF(2^128) 2^6 vs 64 pas directs",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Saut LFSR CORRIGE 2^6 vs LFSR original",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Saut champ GF(2^128) 2^7 vs 128 pas directs",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Saut LFSR CORRIGE 2^7 vs LFSR original",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Saut champ GF(2^128) 2^8 vs 256 pas directs",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Saut LFSR CORRIGE 2^8 vs LFSR original",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Saut champ GF(2^128) 2^9 vs 512 pas directs",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Saut LFSR CORRIGE 2^9 vs LFSR original",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Saut champ GF(2^128) 2^10 vs 1024 pas directs",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Saut LFSR CORRIGE 2^10 vs LFSR original",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Saut champ GF(2^128) 2^11 vs 2048 pas directs",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Saut LFSR CORRIGE 2^11 vs LFSR original",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Saut champ GF(2^128) 2^12 vs 4096 pas directs",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Saut LFSR CORRIGE 2^12 vs LFSR original",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Saut de graine arbitraire 4294967295:16909060:3735928559:4058174404 / 2^0",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Saut de graine arbitraire 4294967295:16909060:3735928559:4058174404 / 2^3",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Saut de graine arbitraire 4294967295:16909060:3735928559:4058174404 / 2^7",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Saut de graine arbitraire 4294967295:16909060:3735928559:4058174404 / 2^10",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Saut de graine arbitraire 0:1:0:0 / 2^0",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Saut de graine arbitraire 0:1:0:0 / 2^3",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Saut de graine arbitraire 0:1:0:0 / 2^7",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Saut de graine arbitraire 0:1:0:0 / 2^10",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Saut de graine arbitraire 123:456:789:987654321 / 2^0",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Saut de graine arbitraire 123:456:789:987654321 / 2^3",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Saut de graine arbitraire 123:456:789:987654321 / 2^7",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Saut de graine arbitraire 123:456:789:987654321 / 2^10",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Defaut ancien polyjump.js reproduit a 2^7 (comparaison divergente)",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Saut LFSR 2^20 vs 1 048 576 pas directs",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Defaut ancien polyjump.js reproduit aussi a 2^20",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Frobenius LFSR E=0 et E=128",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Exposant decimal 10^100 sans BigInt geant",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Le saut geant ne calcule pas carre(1)",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "RK4 V2 vs calcul_max.js pour N=4",
+      "passed": true,
+      "details": "erreur max 0.00e+0"
+    },
+    {
+      "name": "RK4 V2 vs calcul_max.js pour N=5",
+      "passed": true,
+      "details": "erreur max 0.00e+0"
+    },
+    {
+      "name": "RK4 V2 vs calcul_max.js pour N=7",
+      "passed": true,
+      "details": "erreur max 0.00e+0"
+    },
+    {
+      "name": "RK4 V2 vs calcul_max.js pour N=40",
+      "passed": true,
+      "details": "erreur max 0.00e+0"
+    },
+    {
+      "name": "RK4 V2 vs calcul_max.js pour N=100",
+      "passed": true,
+      "details": "erreur max 0.00e+0"
+    },
+    {
+      "name": "RK4 V2 vs calcul_max.js pour N=4096",
+      "passed": true,
+      "details": "erreur max 0.00e+0"
+    }
+  ],
+  "benchmarks": {
+    "linear": {
+      "operation": "Etat du LFSR original apres 2^E pas",
+      "calls": 20000,
+      "total_ms": 10.890104000000008,
+      "mean_us": 0.5445052000000005,
+      "checksum": 3537286725,
+      "memory_cache_bytes": 2048,
+      "polynome": "x^128+x^127+x^126+x^121+1"
+    },
+    "nonlinear": [
+      {
+        "N": 40,
+        "steps": 400,
+        "repetitions": 5,
+        "baseline_median_ms": 0.6041150000000357,
+        "v2_median_ms": 0.4393230000000017,
+        "baseline_mvariables_s": 26.48502354683968,
+        "v2_mvariables_s": 36.419672996860946,
+        "speedup": 1.3751044220312467,
+        "allocated_bytes": 1280
+      },
+      {
+        "N": 4096,
+        "steps": 400,
+        "repetitions": 5,
+        "baseline_median_ms": 40.76473900000008,
+        "v2_median_ms": 31.99249999999995,
+        "baseline_mvariables_s": 40.191597939581975,
+        "v2_mvariables_s": 51.212002813159415,
+        "speedup": 1.2741967336094442,
+        "allocated_bytes": 131072
+      },
+      {
+        "N": 65536,
+        "steps": 80,
+        "repetitions": 5,
+        "baseline_median_ms": 131.65526099999988,
+        "v2_median_ms": 102.82635399999981,
+        "baseline_mvariables_s": 39.82279143406206,
+        "v2_mvariables_s": 50.98770690634436,
+        "speedup": 1.2803649636356855,
+        "allocated_bytes": 2097152
+      },
+      {
+        "N": 262144,
+        "steps": 30,
+        "repetitions": 5,
+        "baseline_median_ms": 202.00114600000006,
+        "v2_median_ms": 158.04817700000012,
+        "baseline_mvariables_s": 38.93205635575947,
+        "v2_mvariables_s": 49.75900481281726,
+        "speedup": 1.2780985509247595,
+        "allocated_bytes": 8388608
+      }
+    ]
+  },
+  "status": "PASSED"
+}

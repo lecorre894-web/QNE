@@ -1,0 +1,19 @@
+{
+  "schema": "QNE-V4-linear/1",
+  "method": "Saut LFSR d un million de pas depuis e0; acceleration par cache de Frobenius precompute V2",
+  "direct_steps": 1048576,
+  "reps": 5,
+  "fast_calls_per_repeat": 50000,
+  "verified": true,
+  "direct_median_ms": 29.84505200000001,
+  "fast_median_ms": 0.00007880415999999969,
+  "gain_direct_sur_cache": 378724.3211525905,
+  "caveat": "Gain pour un saut de 2^20 pas dans un LFSR LINEAIRE (apres pre-calcul du cache); pas transferable au RK4 non lineaire. Preparation de cache a l import non incluse.",
+  "state": [
+    3990033926,
+    1431651658,
+    3131908230,
+    2368690333
+  ],
+  "status": "PASSED"
+}

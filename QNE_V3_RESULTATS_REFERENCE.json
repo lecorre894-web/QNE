@@ -1,0 +1,306 @@
+{
+  "schema": "QNE-V3/1",
+  "created": "2026-11-01T15:41:06.323Z",
+  "node": "v22.16.0",
+  "platform": "linux",
+  "arch": "x64",
+  "cpu": "INTEL(R) XEON(R) PLATINUM 8573C",
+  "method": "Medians de 7 repetitions, ordre alterne; 5 pas de warmup hors chronometre",
+  "test_reference": "Valeurs de V2 comparees element par element par Object.is; hash SHA-256 des 3 moteurs a chaque N.",
+  "numerical_claim": "Identite bit a bit pour les tests executes; cela ne prouve pas l exactitude analytique de Lorenz-96.",
+  "tests": [
+    {
+      "N": 4,
+      "seed": 0,
+      "rounds": 200,
+      "passed": true,
+      "details": null
+    },
+    {
+      "N": 4,
+      "seed": 1,
+      "rounds": 200,
+      "passed": true,
+      "details": null
+    },
+    {
+      "N": 4,
+      "seed": 305419896,
+      "rounds": 200,
+      "passed": true,
+      "details": null
+    },
+    {
+      "N": 4,
+      "seed": 3405648436,
+      "rounds": 200,
+      "passed": true,
+      "details": null
+    },
+    {
+      "N": 5,
+      "seed": 0,
+      "rounds": 200,
+      "passed": true,
+      "details": null
+    },
+    {
+      "N": 5,
+      "seed": 1,
+      "rounds": 200,
+      "passed": true,
+      "details": null
+    },
+    {
+      "N": 5,
+      "seed": 305419896,
+      "rounds": 200,
+      "passed": true,
+      "details": null
+    },
+    {
+      "N": 5,
+      "seed": 3405648436,
+      "rounds": 200,
+      "passed": true,
+      "details": null
+    },
+    {
+      "N": 6,
+      "seed": 0,
+      "rounds": 200,
+      "passed": true,
+      "details": null
+    },
+    {
+      "N": 6,
+      "seed": 1,
+      "rounds": 200,
+      "passed": true,
+      "details": null
+    },
+    {
+      "N": 6,
+      "seed": 305419896,
+      "rounds": 200,
+      "passed": true,
+      "details": null
+    },
+    {
+      "N": 6,
+      "seed": 3405648436,
+      "rounds": 200,
+      "passed": true,
+      "details": null
+    },
+    {
+      "N": 7,
+      "seed": 0,
+      "rounds": 200,
+      "passed": true,
+      "details": null
+    },
+    {
+      "N": 7,
+      "seed": 1,
+      "rounds": 200,
+      "passed": true,
+      "details": null
+    },
+    {
+      "N": 7,
+      "seed": 305419896,
+      "rounds": 200,
+      "passed": true,
+      "details": null
+    },
+    {
+      "N": 7,
+      "seed": 3405648436,
+      "rounds": 200,
+      "passed": true,
+      "details": null
+    },
+    {
+      "N": 40,
+      "seed": 0,
+      "rounds": 200,
+      "passed": true,
+      "details": null
+    },
+    {
+      "N": 40,
+      "seed": 1,
+      "rounds": 200,
+      "passed": true,
+      "details": null
+    },
+    {
+      "N": 40,
+      "seed": 305419896,
+      "rounds": 200,
+      "passed": true,
+      "details": null
+    },
+    {
+      "N": 40,
+      "seed": 3405648436,
+      "rounds": 200,
+      "passed": true,
+      "details": null
+    },
+    {
+      "N": 100,
+      "seed": 0,
+      "rounds": 200,
+      "passed": true,
+      "details": null
+    },
+    {
+      "N": 100,
+      "seed": 1,
+      "rounds": 200,
+      "passed": true,
+      "details": null
+    },
+    {
+      "N": 100,
+      "seed": 305419896,
+      "rounds": 200,
+      "passed": true,
+      "details": null
+    },
+    {
+      "N": 100,
+      "seed": 3405648436,
+      "rounds": 200,
+      "passed": true,
+      "details": null
+    },
+    {
+      "N": 4096,
+      "seed": 0,
+      "rounds": 40,
+      "passed": true,
+      "details": null
+    },
+    {
+      "N": 4096,
+      "seed": 1,
+      "rounds": 40,
+      "passed": true,
+      "details": null
+    },
+    {
+      "N": 4096,
+      "seed": 305419896,
+      "rounds": 40,
+      "passed": true,
+      "details": null
+    },
+    {
+      "N": 4096,
+      "seed": 3405648436,
+      "rounds": 40,
+      "passed": true,
+      "details": null
+    },
+    {
+      "N": 65536,
+      "seed": 0,
+      "rounds": 8,
+      "passed": true,
+      "details": null
+    },
+    {
+      "N": 65536,
+      "seed": 1,
+      "rounds": 8,
+      "passed": true,
+      "details": null
+    }
+  ],
+  "benchmarks": [
+    {
+      "N": 40,
+      "steps": 400,
+      "repetitions": 7,
+      "median_ms": {
+        "original": 0.6551230000000032,
+        "v2": 0.3454690000000369,
+        "v3": 0.20188799999999674
+      },
+      "mvariables_s": {
+        "original": 24.422894632000283,
+        "v2": 46.313851604625285,
+        "v3": 79.25186241876813
+      },
+      "gain_v2_sur_original": 1.8963293377985675,
+      "gain_v3_sur_v2": 1.7111913536220205,
+      "gain_v3_sur_original": 3.2449823664606803,
+      "all_variants_sha256": "e4e085a7619c5f35a449e46726c4e23ea3d04070e3beb8d571ffd4af4d94dfdc",
+      "bytes_four_buffers": 1280
+    },
+    {
+      "N": 4096,
+      "steps": 400,
+      "repetitions": 7,
+      "median_ms": {
+        "original": 70.2699960000001,
+        "v2": 49.690000999999995,
+        "v3": 27.88494700000001
+      },
+      "mvariables_s": {
+        "original": 23.315783310988056,
+        "v2": 32.97242839661042,
+        "v3": 58.75571504582739
+      },
+      "gain_v2_sur_original": 1.4141677316528956,
+      "gain_v3_sur_v2": 1.7819650508928697,
+      "gain_v3_sur_original": 2.519997473905906,
+      "all_variants_sha256": "dbf51d5dccac84eb04d6c46b2cb98dc22d85023fa6a0d9c98c9548fefe218dcb",
+      "bytes_four_buffers": 131072
+    },
+    {
+      "N": 65536,
+      "steps": 80,
+      "repetitions": 7,
+      "median_ms": {
+        "original": 179.74752399999988,
+        "v2": 161.63109900000018,
+        "v3": 92.14736300000004
+      },
+      "mvariables_s": {
+        "original": 29.168023477196847,
+        "v2": 32.43732197848877,
+        "v3": 56.8966905759419
+      },
+      "gain_v2_sur_original": 1.1120850202224988,
+      "gain_v3_sur_v2": 1.754050183725823,
+      "gain_v3_sur_original": 1.9506529340400094,
+      "all_variants_sha256": "b7c01d84b5e65a35fa555bdc54520fd6ab1d550cead18515620bac913516a310",
+      "bytes_four_buffers": 2097152
+    },
+    {
+      "N": 262144,
+      "steps": 30,
+      "repetitions": 7,
+      "median_ms": {
+        "original": 274.69984900000054,
+        "v2": 229.34651400000075,
+        "v3": 131.93777899999986
+      },
+      "mvariables_s": {
+        "original": 28.62877438276271,
+        "v2": 34.29012223835229,
+        "v3": 59.60627850192937
+      },
+      "gain_v2_sur_original": 1.1977502697076077,
+      "gain_v3_sur_v2": 1.738292972174414,
+      "gain_v3_sur_original": 2.0820408762527434,
+      "all_variants_sha256": "a7a3eb1d3564cb8c1301f49a623ada1dc749e6eb718ebf3e036001adbb30b207",
+      "bytes_four_buffers": 8388608
+    }
+  ],
+  "status": "PASSED"
+}

@@ -1,0 +1,24 @@
+name: QNE V2 validations
+on:
+  push:
+    paths:
+      - 'qne_v2.js'
+      - '.github/workflows/qne-v2.yml'
+  pull_request:
+    paths:
+      - 'qne_v2.js'
+      - '.github/workflows/qne-v2.yml'
+  workflow_dispatch:
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: ['20', '22']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+      - run: node qne_v2.js --linear --no-save
+      - run: node qne_v2.js --nonlinear --no-save
