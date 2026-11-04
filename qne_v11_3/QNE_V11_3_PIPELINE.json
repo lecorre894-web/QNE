@@ -1,0 +1,19 @@
+{
+  "status": "PASSED",
+  "stages": [
+    {
+      "alias": "math.mathlib",
+      "method": "ALG.pgcd",
+      "elapsed_ms": 321.250573,
+      "sha256_match": true
+    },
+    {
+      "alias": "core.noyau",
+      "method": "xor",
+      "elapsed_ms": 307.054375,
+      "sha256_match": true
+    }
+  ],
+  "value": -27,
+  "scope": "Integrations explicites seulement; aucun benchmark global implicite"
+}

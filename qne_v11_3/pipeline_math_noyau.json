@@ -1,0 +1,16 @@
+{
+  "input": 48,
+  "stages": [
+    {
+      "alias": "math.mathlib",
+      "method": "ALG.pgcd",
+      "usePrevious": false,
+      "args": [48,18]
+    },
+    {
+      "alias": "core.noyau",
+      "method": "xor",
+      "args": [3]
+    }
+  ]
+}

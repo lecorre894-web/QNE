@@ -1,0 +1,8 @@
+{
+  "schema": "qne.v11.3.local-tests/1",
+  "scope": "Preparation environment, Node.js v22, synthetic fixture only",
+  "selftest": {"status": "PASSED", "checks": 16, "source": "five synthetic fixture files, not the user's 72 originals"},
+  "matrix_v10_fallback": {"status": "PASSED", "engine": "packed", "operation": "GF(2) 32x32 cyclic shift ^32 = identity, source V10 API fallback"},
+  "user_library": "UNTESTED_IN_THIS_ENVIRONMENT; audit must execute on Termux",
+  "global_speedup_x100": "NOT_MEASURED"
+}

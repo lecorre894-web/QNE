@@ -1,0 +1,1233 @@
+{
+  "schema": "qne.v11.2.interfaces/1",
+  "timestamp": "2026-11-04T14:54:13.070Z",
+  "source": "~/QNE/imports_20261104",
+  "status": "INTERFACES_AUDITED",
+  "summary": {
+    "modules": 72,
+    "syntax_ok": 72,
+    "exports_detected": 1,
+    "script_only": 70,
+    "unresolved_core": [],
+    "delta_qiv": 12
+  },
+  "modules": [
+    {
+      "name": "afficher.js",
+      "alias": "legacy.afficher",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "4007fb4ba7b38e60527a97beb4986c4d912db3d55b6a322929e477b797771e54",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "affiche2",
+        "log10Big"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "autobb.js",
+      "alias": "legacy.autobb",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "71123d079a1acaf0770f48e87d49628f326b49783251265df237a67b76cde099",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "BB",
+        "rejoue"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "autopc.js",
+      "alias": "legacy.autopc",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "0baf2b0f39eda24e32a71f0c0de549a37ee24fc3763a3b978d51fc49f9fe30d6",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "L",
+        "aireTri",
+        "f",
+        "gfmul",
+        "lineaire",
+        "modinv",
+        "newton",
+        "ri",
+        "rnd",
+        "shoelace",
+        "simpson"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "bb.js",
+      "alias": "legacy.bb",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "3f0a914d9d5c7a4f9c80b6af00e50173b29b711379ac7ed55a313b7206c1c714",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "BB"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "bench8.js",
+      "alias": "legacy.bench8",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "f941de28eb8a7c9acf01d8f60f88147cf941a80b7facf5d2bbcf6574c237136d",
+      "exported_candidates": [],
+      "declared_not_exported": [],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "bench_big.js",
+      "alias": "legacy.bench_big",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "7d266935caa98d2387f047b26476bc75485580c3a035ba62af8bd14abb1b1d14",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "T",
+        "adv",
+        "ident",
+        "matmul",
+        "matpow",
+        "matvec",
+        "par",
+        "run",
+        "stateAt"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "bench_bigW.js",
+      "alias": "legacy.bench_bigW",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "7f8cb7dd8cc5377e98715aa1dd97b1a9c88262d8baf4c888eae28de48a57a892",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "adv",
+        "ident",
+        "matmul",
+        "matpow",
+        "matvec",
+        "par",
+        "run",
+        "stateAt"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "benchmark_rom.js",
+      "alias": "legacy.benchmark_rom",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "997bf3d847dd42b4488eb2915303a13f6c511f9f8ea39796ac4bc0a972a311d9",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "adv",
+        "ident",
+        "matmul",
+        "matpow",
+        "matvec",
+        "pc",
+        "stateAt"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "biblio.js",
+      "alias": "library.bibliio",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "bdce0e949c609b99632410fae3782cdcba18de034556214d748a5bfd6ddd051f",
+      "exported_candidates": [],
+      "declared_not_exported": [],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "bits_max.js",
+      "alias": "legacy.bits_max",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "bd2e5551517792626c5fc13be59eed8e33399e8bcb6a20ffd5a6bea5a1291250",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "makeSqr"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "cascade.js",
+      "alias": "legacy.cascade",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "b3e0315f9daf63b4df82f9f6635cf06fe26e5ec95bf5f6ceba11987189762a62",
+      "exported_candidates": [],
+      "declared_not_exported": [],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "cascade8.js",
+      "alias": "legacy.cascade8",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "ba56ffddd3b7990f50eace5fe6f268f6f9156b2e553a3f7cafecefde2ab08b01",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "adv",
+        "ident",
+        "matmul",
+        "matpow",
+        "matvec",
+        "par"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "confront.js",
+      "alias": "legacy.confront",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "67d9757086a2b1d254fc4bf79fd8154061d1e5545f74ed29aee011a9c095f2dc",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "gfmul",
+        "mulx",
+        "powx"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "confront2.js",
+      "alias": "legacy.confront2",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "ab1152c2a30045e7c5a6280ae9585790f56a1c7ef91143f8ffa715a791eaabae",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "affiche2",
+        "etatA",
+        "gfmul",
+        "log10Big",
+        "mulx",
+        "sqr"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "cubes.js",
+      "alias": "legacy.cubes",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "b69d5cf36c3ef657c2b0ecf6645ba6fcd882b2f1ed34e9c4bd626686ffbfe7fb",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "cherche",
+        "cube"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "delta.js",
+      "alias": "legacy.delta",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "7289427e6c7aa140eac0b4aac8ce14ae2e01e8e66e1542b4013ae91ad87de784",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "R",
+        "cnot",
+        "delta",
+        "g1",
+        "island",
+        "link",
+        "measure",
+        "pc",
+        "readout",
+        "ry"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "delta10.js",
+      "alias": "legacy.delta10",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "9a5bd2eb683e1686b42bc100ff88e93e150f2f37a6feaca84be4bf83d2f75213",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "CHP",
+        "cnot",
+        "fmt",
+        "g",
+        "had",
+        "measure",
+        "mkR",
+        "rowsum"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "delta4.js",
+      "alias": "legacy.delta4",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "d9fb94815eb9fb8e786c0acee650affc5dd3787cd5d48c7ac07ebe18bc333735",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "cnot",
+        "g1",
+        "island",
+        "measure",
+        "mkR",
+        "pc",
+        "tick",
+        "tree"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "delta5.js",
+      "alias": "legacy.delta5",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "08d0dc1cc2a247c0ddf87f1deb031c973d7afc54cee791c2117baf8ab991f50c",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "cnot",
+        "g1",
+        "island",
+        "measure",
+        "mkR",
+        "pc",
+        "sig",
+        "tick"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "delta6.js",
+      "alias": "legacy.delta6",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "3e4ad65ace0b9c04b0d710b2775711cd3325e64838152f03ce209d0b1b0c0cc1",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "cnot",
+        "g1",
+        "island",
+        "measure",
+        "mkR",
+        "pc",
+        "tick"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "delta7.js",
+      "alias": "legacy.delta7",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "838e86127989b3b41a0064f21800a2514445ea967c58f3d03cf0c501cd21890a",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "e10",
+        "fmt"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "delta8.js",
+      "alias": "legacy.delta8",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "4eec88d5fed41e7973aff61cd6a476dd764c4e4be930c249c85501eadf0e886e",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "CHP",
+        "cnot",
+        "g",
+        "had",
+        "measure",
+        "rowsum"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "delta9.js",
+      "alias": "legacy.delta9",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "3a971d304fd163dd6631162034ea567432fd63772d37fd6f39ed6f6ccc59c7fc",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "CHP",
+        "cnot",
+        "fmt",
+        "g",
+        "had",
+        "measure",
+        "mkR",
+        "rowsum"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "digicube.js",
+      "alias": "legacy.digicube",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "07a8fd3ba6f732c5e8d9c421c67cf21d35781f7e5cd026882ceefe2cff624059",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "cell",
+        "stencil"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "dqiv.js",
+      "alias": "dqiv.dqiv",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "934ac42716178bf568d6186a031038bde3e12689a12507dc523843fe9c9d90b0",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "adosse",
+        "chpCX",
+        "chpG",
+        "chpH",
+        "chpM",
+        "chpNew",
+        "chpSum",
+        "cnot",
+        "cores",
+        "e10",
+        "fmt",
+        "gate1",
+        "ghz",
+        "hwtel",
+        "island",
+        "jlog",
+        "measure",
+        "mkR",
+        "pc",
+        "scaleInfo",
+        "simLocal",
+        "tick"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "dqiv_benchmark.js",
+      "alias": "dqiv.dqiv_benchmark",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "930868c62b457d67f93f5dcc97be9d55059049e11dbb2a46619173e6b509225f",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "benchmarkOps"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "dqiv_bridge.js",
+      "alias": "dqiv.dqiv_bridge",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "83db36717153323525b74bedb6bacf918ccb39ac1dee1eff725ee7d877741b0f",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "getBattery",
+        "getCores"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "dqiv_emulation.js",
+      "alias": "dqiv.dqiv_emulation",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "4c5d42df03f69a7428a7d5ab0811fbee9da57bf816f81c775b3dafaa562c70bf",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "getBattery"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "dqiv_exp_quantum.js",
+      "alias": "dqiv.dqiv_exp_quantum",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "cba9125085a0bc710ebbcd5a4fb9e024399f01e3c0b5a1a3c14ad9843310cee2",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "getBattery",
+        "runFullScaleExponential"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "dqiv_master.js",
+      "alias": "dqiv.dqiv_master",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "d0a817cb3a6107e56937430b71556f34358ae8943e60fc1e57cc1a21d80e1762",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "getBattery",
+        "getCores"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "dqiv_neural_quantum_cluster.js",
+      "alias": "dqiv.dqiv_neural_quantum_cluster",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "b827ffe5678cd7c78c6470790d516863ac55552401fb365b9e51f2ab336c09d8",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "runNeuralQuantumClusterBench"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "dqiv_pico_packet.js",
+      "alias": "dqiv.dqiv_pico_packet",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "059d2afc672971e8e31e264260ce11a9a3faff365369e8c2f348612155b9cfc1",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "benchmarkPacket"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "dqiv_snapdragon.js",
+      "alias": "dqiv.dqiv_snapdragon",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "366d7f8f55b6e2df50dfc4cc35d5dd52efa1297bfe62a9f509ac90b701a827f3",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "getBattery",
+        "getCores"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "dqiv_telemetry.js",
+      "alias": "dqiv.dqiv_telemetry",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "a29e3f05d0468215a1fc79ca4f9d7eb539851eb8f915018e00751bcdce5b44a8",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "getHardwareStats"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "dqiv_transistors.js",
+      "alias": "dqiv.dqiv_transistors",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "7a5149ff0766becb756bb0a5d4f037d4cf44f993639d5db1ba3d4220ee002e9d",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "emulateTransistors",
+        "getBattery",
+        "mkR"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "duel100.js",
+      "alias": "legacy.duel100",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "95f87d89cfc15334e146e9f3d5ba7fb33a42ab147eb92a30f533788aef1b60b8",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "duel",
+        "hex",
+        "mulx",
+        "shl5",
+        "sqr",
+        "xpow"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "duel3.js",
+      "alias": "legacy.duel3",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "0c008230a8b683f86847f52c14e733cdd2273ed80251066e5e10eb2ce11265f1",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "bm",
+        "gauss",
+        "predit",
+        "rb"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "fenetre.js",
+      "alias": "legacy.fenetre",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "5706497c5733faa92a0b8aa1ff3425733afeb8549151b7bf1493ebd0f0efd35e",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "adv",
+        "ident",
+        "matmul",
+        "matpow",
+        "matpowWin",
+        "matvec",
+        "par"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "frobenius.js",
+      "alias": "legacy.frobenius",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "29a3523efc6097881b184c2347459c5a42cf3971a56d5f6cb435ad601317f2a4",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "at2pow",
+        "shl5",
+        "sqr"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "geo.js",
+      "alias": "legacy.geo",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "95b85306a4654c6dd9e41e55316485cec6dce0dd3d27f2f8e7b2b31b18ebf85e",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "cell",
+        "fold",
+        "stencil",
+        "voisins"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "gf2sci.js",
+      "alias": "legacy.gf2sci",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "f7cda37999751bf321d932000e8f8747fa57331c02493e9a611fe69230a5a079",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "dotC",
+        "rnd"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "incommensurable.js",
+      "alias": "legacy.incommensurable",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "625923eecc5e480984a370dce2492bb5d25f6210a969c6927cde17f2fa926f61",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "advV",
+        "eq",
+        "ident",
+        "matpow",
+        "matvec",
+        "mul",
+        "pc",
+        "unit"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "inimaginable.js",
+      "alias": "legacy.inimaginable",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "60fd4cd7645c593696ded96e4bb0ff8924c03750900cbde6744e88b52847d6c1",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "tour"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "marriage.js",
+      "alias": "legacy.marriage",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "e6ad8de26d581a44efd9889e7ca1ef56074225a461b6bb4f023d492e54c3c43f",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "adv",
+        "ident",
+        "matmul",
+        "matpow",
+        "matvec",
+        "par"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "marriage1024.js",
+      "alias": "legacy.marriage1024",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "ea8aa8655a98358fef7e193294006b75be41f8d9b2d2bed82e649060d72be06b",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "adv",
+        "ident",
+        "matmul",
+        "matpow",
+        "matvec",
+        "par"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "mathlib.js",
+      "alias": "math.mathlib",
+      "style": "cjs",
+      "syntax": "PASS",
+      "hash_sha256": "67de74b0afc6c2d3f2e90fc6610d17f212a6506cb660741175c0b236684a02b2",
+      "exported_candidates": [
+        "GEO",
+        "VAR"
+      ],
+      "declared_not_exported": [
+        "ok"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "micronoyau.js",
+      "alias": "core.micronoyau",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "eac203f550242719b666ec45149626fd2760df293f3433364fe606b6f1dbba1b",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "flot",
+        "gfmul",
+        "mulx",
+        "powx",
+        "refmul"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "noyau.js",
+      "alias": "core.noyau",
+      "style": "cjs",
+      "syntax": "PASS",
+      "hash_sha256": "d71187248c3b0cea8084c57f4a018cbd24e411bff091d54771b7133942943ffb",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "fold"
+      ],
+      "exports_unknown": true,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "parite.js",
+      "alias": "legacy.parite",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "aa2536c53e2bb8f9dcaed5b8f7e42cfc70a74a65ca9723903fad554713a13532",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "estImpair",
+        "estPair",
+        "f",
+        "g",
+        "impair",
+        "integ",
+        "pair"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "patch_dqiv_hw.js",
+      "alias": "dqiv.patch_dqiv_hw",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "8aabe51c61549a8af86cec1ed5669ce398797824efb37f8bc688caf84b0298cb",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "chpCX",
+        "chpG",
+        "chpH",
+        "chpM",
+        "chpNew",
+        "chpSum",
+        "cnot",
+        "e10",
+        "fmt",
+        "gate1",
+        "island",
+        "jlog",
+        "measure",
+        "mkR",
+        "pc",
+        "sendToHardware",
+        "tick"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "pc.js",
+      "alias": "legacy.pc",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "f4f026cddba688826faffbcf6693650b6b5048ed21e0662729d30f7b45b34a99",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "activ",
+        "gmul",
+        "mix",
+        "mulx",
+        "norme",
+        "renorm",
+        "rnd",
+        "sqr"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "phases.js",
+      "alias": "legacy.phases",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "a04902231fa2283af038838e7815fcec8815e3cdc7a218db38df819ce7d9fe39",
+      "exported_candidates": [],
+      "declared_not_exported": [],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "ping.js",
+      "alias": "legacy.ping",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "496f0db0d9a8d5757db1a1af92e18f630acb9521f068d069fa725cb225edbeaa",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "adv",
+        "ident",
+        "matmul",
+        "matpow",
+        "matvec",
+        "par"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "polyjump.js",
+      "alias": "legacy.polyjump",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "19a6de110eed7378bc0f9c85e83fddf6beaeae9ad16d6e192219c4e2f43a0223",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "at2pow",
+        "eq",
+        "mulx",
+        "shl5",
+        "sqr"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "pow2.js",
+      "alias": "legacy.pow2",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "f672e4cb335305c6efb2317672e0fbee0b81faad51f57d98a6aaf5bdd7cbb6ed",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "advV",
+        "at2pow",
+        "matvec",
+        "mul",
+        "pc",
+        "unit"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "qne.js",
+      "alias": "legacy.qne",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "19739cda809313f56b086407c3214f997c6ef62d4e35d399fa9e4fbab3d127df",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "equilibre",
+        "nb",
+        "rng",
+        "step"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "qne8.js",
+      "alias": "legacy.qne8",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "7fc1c43c2ae31a91d249e379dcc8db6f157bd76aaadaf898a33ff13e10a9fbc1",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "bar",
+        "eq",
+        "mkF",
+        "mkI",
+        "nb",
+        "rnd"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "qneC.js",
+      "alias": "legacy.qneC",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "7504047d087442fd15f7cf60c31b6a528865aef3785bf0a156098243407279a5",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "bar",
+        "mkF",
+        "mkI",
+        "nb",
+        "rnd",
+        "symq",
+        "tanhL"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "qneM.js",
+      "alias": "legacy.qneM",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "3bd55931c18ad754071e1dc95fbe85f49c5dbc24cd783f00ca680dd57f8b3e56",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "bar",
+        "mkF",
+        "mkI",
+        "mkW",
+        "nb",
+        "rnd",
+        "symq",
+        "tanhL"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "qneR.js",
+      "alias": "legacy.qneR",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "65173d31782a79f0c22f27295119a75969ff3bdb6dd779143eb72a52396117b6",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "bar",
+        "eq",
+        "mkF",
+        "mkI",
+        "nb",
+        "rnd"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "qneT.js",
+      "alias": "legacy.qneT",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "0fbbcefa3865bde2a5da6a5d73ac8565a075022bb687d5abb8903158941e320f",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "bar",
+        "mkF",
+        "mkI",
+        "nb",
+        "rnd",
+        "symq"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "qneTL.js",
+      "alias": "legacy.qneTL",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "17b138f266b0bf4e6b47f6fe79af3b732cb4b76ba69d228189e6a6079967a5d2",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "bar",
+        "mkF",
+        "mkI",
+        "nb",
+        "rnd",
+        "symq",
+        "tanhL"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "qpu_driver.js",
+      "alias": "legacy.qpu_driver",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "bb585b498a8a019de6b98e393b33a502ebcdb7ac33ad5205b3f20fbba0226f42",
+      "exported_candidates": [],
+      "declared_not_exported": [],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "rom.js",
+      "alias": "legacy.rom",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "3e507da8545516b54207a3ec857030a84bdb3ca635bd0002b9fa1f570388d59b",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "key",
+        "nb",
+        "r",
+        "stateAt",
+        "step"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "rom_phone.js",
+      "alias": "legacy.rom_phone",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "bef5d173d7e43f26efbb16046a649c065ade4c1c801635cbce362d7419783554",
+      "exported_candidates": [],
+      "declared_not_exported": [],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "sat.js",
+      "alias": "legacy.sat",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "1855de03ae8beec67adffd9e0480f29c7890f81d928e278fccce5ff3dd6a5f61",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "dpll",
+        "lit",
+        "prop",
+        "rnd",
+        "undo"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "scale.js",
+      "alias": "legacy.scale",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "5eaa62a9280fd9f4ca7388b105158b954ec3f2fed6416b4f3afa7d037524ee1a",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "adv",
+        "ident",
+        "matmul",
+        "matpow",
+        "matvec",
+        "par",
+        "test"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "softbits.js",
+      "alias": "legacy.softbits",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "f1758e55f3efe6e3a89c5b6021de1e629a3c163ee317fa8e902194d265b69fe1",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "NOT",
+        "parite"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "solveur.js",
+      "alias": "legacy.solveur",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "bc0793ac906e124dcbf2d29228d6b4714495cc35abe864ca1f1ab7f8e448c8ee",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "convolution",
+        "edo",
+        "integrale",
+        "interpole",
+        "lineaire",
+        "minimise",
+        "modexp",
+        "ok",
+        "pgcd",
+        "racine"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "stab.js",
+      "alias": "legacy.stab",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "940b824921cd5faebf195b2314f4967ac5fe136dd08faa0664c3142f2adecace",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "activite",
+        "mix",
+        "norme",
+        "renorm",
+        "rnd",
+        "run"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "stress.js",
+      "alias": "legacy.stress",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "80cb2d253cd190ced3a13b2403c1b8f34046ac386fc39df43792fdecb8643242",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "abs",
+        "bump",
+        "edo",
+        "eigen",
+        "f",
+        "fft",
+        "g",
+        "hex",
+        "integrale",
+        "lineaire",
+        "matmul",
+        "modexp",
+        "now",
+        "rho",
+        "rnd",
+        "stress"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    },
+    {
+      "name": "xorari.js",
+      "alias": "legacy.xorari",
+      "style": "script",
+      "syntax": "PASS",
+      "hash_sha256": "084a96035f45dd098e9516d8ae68aab72f6685348cd83b840cc4a7b9bc91f136",
+      "exported_candidates": [],
+      "declared_not_exported": [
+        "addSansRetenue",
+        "sx",
+        "xorN"
+      ],
+      "exports_unknown": false,
+      "comment": "Analyse statique indicative, non preuve qu’une fonction est appelable."
+    }
+  ]
+}
