@@ -1,0 +1,120 @@
+{
+  "schema": "qne.v12.reference/1",
+  "generated_at_utc": "2026-11-04",
+  "platform": "Linux x86-64 (environnement de preparation, non Motorola)",
+  "node_version": "v22.16.0",
+  "scope": "2 travailleurs, puis comparaison 1/2/4 travailleurs sur meme machine; les noeuds physiques distants non verifies",
+  "end_to_end": {
+    "schema": "qne.v12.e2e/1",
+    "status": "PASSED",
+    "checks": 18,
+    "workers": 2,
+    "parallel_jobs": 30,
+    "elapsed_ms": 859.77,
+    "workers_used": [
+      "node-A",
+      "node-B"
+    ],
+    "persistence": "PASSED",
+    "failover": "PASSED",
+    "idempotency": "PASSED",
+    "auth": "PASSED",
+    "math": "PASSED",
+    "matrix_v10": "PASSED",
+    "transport": "loopback HTTP; remote requires verified TLS",
+    "distributed_speedup": "NOT_MEASURED",
+    "notes": [
+      "Tests de services locaux en processus distincts; aucun datacenter reel implique",
+      "Les taches sont au-moins-une-fois, et non exactement-une-fois"
+    ]
+  },
+  "benchmark_scale": {
+    "schema": "qne.v12.scale/1",
+    "status": "PASSED",
+    "machine": "linux/x64",
+    "node": "v22.16.0",
+    "reference": "local loopback, sha256/gcd/modpow reference tasks",
+    "repetitions": 2,
+    "jobs_per_run": 36,
+    "summary": [
+      {
+        "workers": 1,
+        "median_ms": 1856.995,
+        "measurements": 2,
+        "ratio_vs_1": 1
+      },
+      {
+        "workers": 2,
+        "median_ms": 976.449,
+        "measurements": 2,
+        "ratio_vs_1": 1.902
+      },
+      {
+        "workers": 4,
+        "median_ms": 656.744,
+        "measurements": 2,
+        "ratio_vs_1": 2.828
+      }
+    ],
+    "raw": [
+      {
+        "workers": 1,
+        "repeat": 1,
+        "tasks": 36,
+        "elapsed_ms": 1741.39,
+        "throughput_per_s": 20.67,
+        "correct": true
+      },
+      {
+        "workers": 1,
+        "repeat": 2,
+        "tasks": 36,
+        "elapsed_ms": 1972.601,
+        "throughput_per_s": 18.25,
+        "correct": true
+      },
+      {
+        "workers": 2,
+        "repeat": 1,
+        "tasks": 36,
+        "elapsed_ms": 1015.563,
+        "throughput_per_s": 35.45,
+        "correct": true
+      },
+      {
+        "workers": 2,
+        "repeat": 2,
+        "tasks": 36,
+        "elapsed_ms": 937.335,
+        "throughput_per_s": 38.41,
+        "correct": true
+      },
+      {
+        "workers": 4,
+        "repeat": 1,
+        "tasks": 36,
+        "elapsed_ms": 648.434,
+        "throughput_per_s": 55.52,
+        "correct": true
+      },
+      {
+        "workers": 4,
+        "repeat": 2,
+        "tasks": 36,
+        "elapsed_ms": 665.054,
+        "throughput_per_s": 54.13,
+        "correct": true
+      }
+    ],
+    "scope": "Includes HTTP/task queue/thread overhead; NOT a QNE global speedup nor a datacenter benchmark"
+  },
+  "tls_manual_test": {
+    "trusted_ca": "PASSED",
+    "untrusted_ca": "REJECTED_AS_EXPECTED"
+  },
+  "certificate_provisioning_test": {
+    "openssl_verify": "PASSED",
+    "san_dns": "coordinator"
+  },
+  "interpretation": "Le ratio mesure des taches de controle, pas une acceleration de QNE entier ni une mesure datacenter."
+}

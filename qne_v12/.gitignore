@@ -1,0 +1,7 @@
+*.log
+*_TESTS_LOCAL.json
+*.pem
+*.key
+secrets/
+*.tmp
+*_BENCH_LOCAL.json

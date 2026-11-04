@@ -1,0 +1,6 @@
+node_modules
+*.zip
+*_TESTS_LOCAL.json
+*_RESULTATS_REFERENCE.json
+.DS_Store
+secrets/
