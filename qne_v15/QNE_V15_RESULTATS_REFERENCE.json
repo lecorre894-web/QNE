@@ -1,0 +1,194 @@
+{
+  "schema": "qne.v15.adaptive-checkup/1",
+  "created": "2026-11-04T18:43:13.060Z",
+  "status": "PASSED",
+  "node": "v22.16.0",
+  "platform": "linux",
+  "arch": "x64",
+  "checks": [
+    "periodic: reconstruction octet pour octet",
+    "periodic: integrite SHA-256",
+    "sparse: reconstruction octet pour octet",
+    "sparse: integrite SHA-256",
+    "arbitrary: reconstruction octet pour octet",
+    "arbitrary: integrite SHA-256",
+    "nonlinear_state: reconstruction octet pour octet",
+    "nonlinear_state: integrite SHA-256",
+    "jumeau non lineaire: reproduction exacte depuis regle et parametres",
+    "entropie arbitraire conservee en litteral",
+    "memoire reconstructive : premier acces exact",
+    "memoire reconstructive : deduplication du second acces",
+    "GF128: XOR algebrique = lecture directe des 8192 cellules",
+    "GF128: acces aleatoire 1",
+    "GF128: acces aleatoire 15",
+    "GF128: acces aleatoire 128",
+    "GF128: acces aleatoire 130880",
+    "corrections ponctuelles reconstruites integralement",
+    "GF128+exceptions: XOR global exact",
+    "10 millions de To: resultat de reference conserve",
+    "selection adaptative : reduction algebrique directe",
+    "selection adaptative : grands blocs pour workers",
+    "selection adaptative : petites lectures locales",
+    "pairs + impairs = XOR global exact",
+    "decomposition en 8 classes exacte",
+    "decomposition en 12 classes exacte",
+    "decomposition en 16 classes exacte",
+    "decomposition en 32 classes exacte",
+    "decomposition en 64 classes exacte",
+    "decomposition en 128 classes exacte",
+    "decomposition en 256 classes exacte",
+    "lecture exacte aux derniers octets de 10 millions de To",
+    "coordinateur QNE V14 initialisable sans modification",
+    "2 vrais travailleurs QNE V13/V14 inscrits",
+    "4 blocs GF128 verifies par file V14",
+    "calcul de hachage realise par au moins un worker"
+  ],
+  "methods": {
+    "periodic": {
+      "chosen": "periodic",
+      "physical_source_bytes": 32768,
+      "descriptor_bytes": 89,
+      "exact": true,
+      "ratio": 368.17977528089887
+    },
+    "sparse": {
+      "chosen": "patches",
+      "physical_source_bytes": 32768,
+      "descriptor_bytes": 191,
+      "exact": true,
+      "ratio": 171.56020942408378
+    },
+    "arbitrary": {
+      "chosen": "literal",
+      "physical_source_bytes": 32768,
+      "descriptor_bytes": 43813,
+      "exact": true,
+      "ratio": 0.747905872686189
+    },
+    "nonlinear_state": {
+      "chosen": "literal",
+      "physical_source_bytes": 512,
+      "descriptor_bytes": 803,
+      "exact": true,
+      "ratio": 0.6376089663760897
+    },
+    "nonlinear_reconstruction": {
+      "chosen": "lorenz96",
+      "descriptor_bytes": 185,
+      "state_bytes": 512,
+      "exact": true
+    },
+    "memo": {
+      "entries": 1,
+      "bytes": 4096,
+      "hits": 1,
+      "misses": 1,
+      "max_bytes": 65536
+    },
+    "policy": {
+      "xor": {
+        "operation": "xor_all",
+        "engine": "QNE-V2-GF128-algebraic",
+        "classes": 1,
+        "reason": "Plusieurs paliers logiques ne garantissent pas un gain de temps ; reference algébrique directe retenue"
+      },
+      "small": {
+        "operation": "verify",
+        "engine": "QNE-V15-read-local",
+        "reason": "Lecture locale compacte pour eviter le cout des messages et des travailleurs"
+      },
+      "large": {
+        "operation": "verify",
+        "engine": "V14-workers-sha256-base64",
+        "reason": "Verification de fenetre bornee ; workers existants ; pas de script arbitraire"
+      }
+    },
+    "gf": {
+      "logical_TB_SI": "10000000",
+      "logical_bytes": "10000000000000000000",
+      "logical_cells": "625000000000000000",
+      "descriptor_bytes": 151,
+      "xor": "0x4c6f8a293f5682a9be1270f3205a70d0",
+      "algebraic_xor_ms": 1.4788229999999913,
+      "even_odd_ms": 3.025777000000005,
+      "classes": [
+        {
+          "classes": 8,
+          "duration_ms": 12.251118000000005,
+          "valid": true
+        },
+        {
+          "classes": 12,
+          "duration_ms": 17.245754000000005,
+          "valid": true
+        },
+        {
+          "classes": 16,
+          "duration_ms": 22.179086999999996,
+          "valid": true
+        },
+        {
+          "classes": 32,
+          "duration_ms": 44.411553000000026,
+          "valid": true
+        },
+        {
+          "classes": 64,
+          "duration_ms": 89.63362400000003,
+          "valid": true
+        },
+        {
+          "classes": 128,
+          "duration_ms": 164.002542,
+          "valid": true
+        },
+        {
+          "classes": 256,
+          "duration_ms": 332.775533,
+          "valid": true
+        }
+      ],
+      "access_end_sha256": "029c32b2b277e6def2a3a61f0a1aba553969f537855fa11aebcd1f29af95c031",
+      "materialized_full_space": false
+    },
+    "v14": {
+      "status": "PASSED",
+      "mode": "V14-unmodified-qne.sha256",
+      "verified_chunks": 4,
+      "verified_window_bytes": 32768,
+      "workers": [
+        "qne15-worker-2",
+        "qne15-worker-1"
+      ],
+      "worker_calculated": 4,
+      "representations": "SHA-256 du texte base64, pas des octets sources",
+      "chunks": [
+        {
+          "offset": "1024",
+          "bytes": 8192,
+          "sha256_base64": "44957c3195ca8ab907dc4c24952d19b3c12c251cb81ce2d7e6aadd8720fb749e"
+        },
+        {
+          "offset": "9216",
+          "bytes": 8192,
+          "sha256_base64": "1b700b9b6ac3795e7cc74070759f4d8dee1d1a5b5f39fd52ea0ca1acdc968683"
+        },
+        {
+          "offset": "17408",
+          "bytes": 8192,
+          "sha256_base64": "76b60255fb06c9988ab470858e99299305ddc82fb4f9b783c6638852e012b1be"
+        },
+        {
+          "offset": "25600",
+          "bytes": 8192,
+          "sha256_base64": "b00ac3c124e8abfbf886a56d259738592a3eba1d916920c4ab7e4ca977e345e1"
+        }
+      ]
+    }
+  },
+  "source_engine": "QNE V2 GF(2^128) non modifie",
+  "originals_modified": false,
+  "check_count": 36,
+  "rss_before_bytes": 33017856,
+  "rss_after_bytes": 49065984
+}
