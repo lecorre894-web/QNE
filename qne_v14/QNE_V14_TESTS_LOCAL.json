@@ -1,0 +1,28 @@
+{
+  "schema": "qne.v14.e2e/1",
+  "status": "PASSED",
+  "checks": 22,
+  "workers": 2,
+  "task_count": 25,
+  "results_verified": 25,
+  "cache": {
+    "enabled": true,
+    "coalescing": true,
+    "cache_entries": 3,
+    "hits": 12,
+    "coalesced": 9,
+    "misses": 3,
+    "fanout": 9,
+    "executions": 3,
+    "expired": 0
+  },
+  "batching": {
+    "bulk_batches": 2,
+    "bulk_submitted": 24,
+    "durable_writes": 2,
+    "fast_executions": 3,
+    "max_batch": 32,
+    "fast_path": true
+  },
+  "originals_modified": false
+}

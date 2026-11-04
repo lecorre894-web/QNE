@@ -1,0 +1,675 @@
+{
+  "schema": "qne.v14.staircase/1",
+  "status": "PASSED",
+  "machine": "android/arm64",
+  "node": "v26.3.1",
+  "repetitions": 2,
+  "jobs_per_pass": 24,
+  "passes": 2,
+  "all_results_verified": true,
+  "stages": [
+    {
+      "id": "P0",
+      "v": "v12",
+      "workers": 1,
+      "send": "single",
+      "poll": "single"
+    },
+    {
+      "id": "P1",
+      "v": "v12",
+      "workers": 4,
+      "send": "single",
+      "poll": "single"
+    },
+    {
+      "id": "P2",
+      "v": "v13",
+      "workers": 4,
+      "send": "single",
+      "poll": "single"
+    },
+    {
+      "id": "P3",
+      "v": "v14",
+      "workers": 4,
+      "send": "batch",
+      "poll": "single"
+    },
+    {
+      "id": "P4",
+      "v": "v14",
+      "workers": 4,
+      "send": "batch",
+      "poll": "batch"
+    },
+    {
+      "id": "P5",
+      "v": "v14",
+      "workers": 4,
+      "send": "batch",
+      "poll": "batch",
+      "fast": true
+    }
+  ],
+  "summary": {
+    "repeated": {
+      "stages": [
+        {
+          "id": "P0",
+          "workers": 1,
+          "elapsed_ms": 10400.16435,
+          "gain_incremental": 1,
+          "gain_cumule_direct": 1
+        },
+        {
+          "id": "P1",
+          "workers": 4,
+          "elapsed_ms": 3283.5024000000003,
+          "gain_incremental": 3.1674,
+          "gain_cumule_direct": 3.1674
+        },
+        {
+          "id": "P2",
+          "workers": 4,
+          "elapsed_ms": 798.3217,
+          "gain_incremental": 4.113,
+          "gain_cumule_direct": 13.0275
+        },
+        {
+          "id": "P3",
+          "workers": 4,
+          "elapsed_ms": 609.462,
+          "gain_incremental": 1.3099,
+          "gain_cumule_direct": 17.0645
+        },
+        {
+          "id": "P4",
+          "workers": 4,
+          "elapsed_ms": 548.7037,
+          "gain_incremental": 1.1107,
+          "gain_cumule_direct": 18.9541
+        },
+        {
+          "id": "P5",
+          "workers": 4,
+          "elapsed_ms": 47.2774,
+          "gain_incremental": 11.606,
+          "gain_cumule_direct": 219.9817
+        }
+      ],
+      "recommended_amplifier": "P5",
+      "verified_telescopic": true,
+      "direct_gain_P0_P5": 219.9817,
+      "selected_gain_P0": 219.9817
+    },
+    "unique": {
+      "stages": [
+        {
+          "id": "P0",
+          "workers": 1,
+          "elapsed_ms": 10566.4631,
+          "gain_incremental": 1,
+          "gain_cumule_direct": 1
+        },
+        {
+          "id": "P1",
+          "workers": 4,
+          "elapsed_ms": 4264.765649999999,
+          "gain_incremental": 2.4776,
+          "gain_cumule_direct": 2.4776
+        },
+        {
+          "id": "P2",
+          "workers": 4,
+          "elapsed_ms": 4604.255950000001,
+          "gain_incremental": 0.9263,
+          "gain_cumule_direct": 2.2949
+        },
+        {
+          "id": "P3",
+          "workers": 4,
+          "elapsed_ms": 3562.39925,
+          "gain_incremental": 1.2925,
+          "gain_cumule_direct": 2.9661
+        },
+        {
+          "id": "P4",
+          "workers": 4,
+          "elapsed_ms": 3305.8281,
+          "gain_incremental": 1.0776,
+          "gain_cumule_direct": 3.1963
+        },
+        {
+          "id": "P5",
+          "workers": 4,
+          "elapsed_ms": 50.055800000000005,
+          "gain_incremental": 66.0429,
+          "gain_cumule_direct": 211.0937
+        }
+      ],
+      "recommended_amplifier": "P5",
+      "verified_telescopic": true,
+      "direct_gain_P0_P5": 211.0937,
+      "selected_gain_P0": 211.0937
+    }
+  },
+  "measurements": [
+    {
+      "workload": "repeated",
+      "stage": "P0",
+      "workers": 1,
+      "repeat": 1,
+      "elapsed_ms": 9861.1381,
+      "verified": true,
+      "logical_tasks": 48,
+      "cooperation": null,
+      "batch14": null
+    },
+    {
+      "workload": "repeated",
+      "stage": "P1",
+      "workers": 4,
+      "repeat": 1,
+      "elapsed_ms": 3277.6745,
+      "verified": true,
+      "logical_tasks": 48,
+      "cooperation": null,
+      "batch14": null
+    },
+    {
+      "workload": "repeated",
+      "stage": "P2",
+      "workers": 4,
+      "repeat": 1,
+      "elapsed_ms": 680.1225,
+      "verified": true,
+      "logical_tasks": 48,
+      "cooperation": {
+        "enabled": true,
+        "coalescing": true,
+        "cache_entries": 6,
+        "hits": 24,
+        "coalesced": 18,
+        "misses": 6,
+        "fanout": 18,
+        "executions": 6,
+        "expired": 0
+      },
+      "batch14": null
+    },
+    {
+      "workload": "repeated",
+      "stage": "P3",
+      "workers": 4,
+      "repeat": 1,
+      "elapsed_ms": 631.1345,
+      "verified": true,
+      "logical_tasks": 48,
+      "cooperation": {
+        "enabled": true,
+        "coalescing": true,
+        "cache_entries": 6,
+        "hits": 24,
+        "coalesced": 18,
+        "misses": 6,
+        "fanout": 18,
+        "executions": 6,
+        "expired": 0
+      },
+      "batch14": {
+        "bulk_batches": 4,
+        "bulk_submitted": 48,
+        "durable_writes": 22,
+        "fast_executions": 0,
+        "max_batch": 32,
+        "fast_path": false
+      }
+    },
+    {
+      "workload": "repeated",
+      "stage": "P4",
+      "workers": 4,
+      "repeat": 1,
+      "elapsed_ms": 568.5895,
+      "verified": true,
+      "logical_tasks": 48,
+      "cooperation": {
+        "enabled": true,
+        "coalescing": true,
+        "cache_entries": 6,
+        "hits": 24,
+        "coalesced": 18,
+        "misses": 6,
+        "fanout": 18,
+        "executions": 6,
+        "expired": 0
+      },
+      "batch14": {
+        "bulk_batches": 4,
+        "bulk_submitted": 48,
+        "durable_writes": 22,
+        "fast_executions": 0,
+        "max_batch": 32,
+        "fast_path": false
+      }
+    },
+    {
+      "workload": "repeated",
+      "stage": "P5",
+      "workers": 4,
+      "repeat": 1,
+      "elapsed_ms": 48.1933,
+      "verified": true,
+      "logical_tasks": 48,
+      "cooperation": {
+        "enabled": true,
+        "coalescing": true,
+        "cache_entries": 6,
+        "hits": 32,
+        "coalesced": 10,
+        "misses": 6,
+        "fanout": 10,
+        "executions": 6,
+        "expired": 0
+      },
+      "batch14": {
+        "bulk_batches": 4,
+        "bulk_submitted": 48,
+        "durable_writes": 4,
+        "fast_executions": 6,
+        "max_batch": 32,
+        "fast_path": true
+      }
+    },
+    {
+      "workload": "repeated",
+      "stage": "P5",
+      "workers": 4,
+      "repeat": 2,
+      "elapsed_ms": 46.3615,
+      "verified": true,
+      "logical_tasks": 48,
+      "cooperation": {
+        "enabled": true,
+        "coalescing": true,
+        "cache_entries": 6,
+        "hits": 32,
+        "coalesced": 10,
+        "misses": 6,
+        "fanout": 10,
+        "executions": 6,
+        "expired": 0
+      },
+      "batch14": {
+        "bulk_batches": 4,
+        "bulk_submitted": 48,
+        "durable_writes": 4,
+        "fast_executions": 6,
+        "max_batch": 32,
+        "fast_path": true
+      }
+    },
+    {
+      "workload": "repeated",
+      "stage": "P4",
+      "workers": 4,
+      "repeat": 2,
+      "elapsed_ms": 528.8179,
+      "verified": true,
+      "logical_tasks": 48,
+      "cooperation": {
+        "enabled": true,
+        "coalescing": true,
+        "cache_entries": 6,
+        "hits": 24,
+        "coalesced": 18,
+        "misses": 6,
+        "fanout": 18,
+        "executions": 6,
+        "expired": 0
+      },
+      "batch14": {
+        "bulk_batches": 4,
+        "bulk_submitted": 48,
+        "durable_writes": 22,
+        "fast_executions": 0,
+        "max_batch": 32,
+        "fast_path": false
+      }
+    },
+    {
+      "workload": "repeated",
+      "stage": "P3",
+      "workers": 4,
+      "repeat": 2,
+      "elapsed_ms": 587.7895,
+      "verified": true,
+      "logical_tasks": 48,
+      "cooperation": {
+        "enabled": true,
+        "coalescing": true,
+        "cache_entries": 6,
+        "hits": 24,
+        "coalesced": 18,
+        "misses": 6,
+        "fanout": 18,
+        "executions": 6,
+        "expired": 0
+      },
+      "batch14": {
+        "bulk_batches": 4,
+        "bulk_submitted": 48,
+        "durable_writes": 22,
+        "fast_executions": 0,
+        "max_batch": 32,
+        "fast_path": false
+      }
+    },
+    {
+      "workload": "repeated",
+      "stage": "P2",
+      "workers": 4,
+      "repeat": 2,
+      "elapsed_ms": 916.5209,
+      "verified": true,
+      "logical_tasks": 48,
+      "cooperation": {
+        "enabled": true,
+        "coalescing": true,
+        "cache_entries": 6,
+        "hits": 24,
+        "coalesced": 18,
+        "misses": 6,
+        "fanout": 18,
+        "executions": 6,
+        "expired": 0
+      },
+      "batch14": null
+    },
+    {
+      "workload": "repeated",
+      "stage": "P1",
+      "workers": 4,
+      "repeat": 2,
+      "elapsed_ms": 3289.3303,
+      "verified": true,
+      "logical_tasks": 48,
+      "cooperation": null,
+      "batch14": null
+    },
+    {
+      "workload": "repeated",
+      "stage": "P0",
+      "workers": 1,
+      "repeat": 2,
+      "elapsed_ms": 10939.1906,
+      "verified": true,
+      "logical_tasks": 48,
+      "cooperation": null,
+      "batch14": null
+    },
+    {
+      "workload": "unique",
+      "stage": "P0",
+      "workers": 1,
+      "repeat": 1,
+      "elapsed_ms": 9916.2006,
+      "verified": true,
+      "logical_tasks": 48,
+      "cooperation": null,
+      "batch14": null
+    },
+    {
+      "workload": "unique",
+      "stage": "P1",
+      "workers": 4,
+      "repeat": 1,
+      "elapsed_ms": 4107.9748,
+      "verified": true,
+      "logical_tasks": 48,
+      "cooperation": null,
+      "batch14": null
+    },
+    {
+      "workload": "unique",
+      "stage": "P2",
+      "workers": 4,
+      "repeat": 1,
+      "elapsed_ms": 4194.5236,
+      "verified": true,
+      "logical_tasks": 48,
+      "cooperation": {
+        "enabled": true,
+        "coalescing": true,
+        "cache_entries": 48,
+        "hits": 0,
+        "coalesced": 0,
+        "misses": 48,
+        "fanout": 0,
+        "executions": 48,
+        "expired": 0
+      },
+      "batch14": null
+    },
+    {
+      "workload": "unique",
+      "stage": "P3",
+      "workers": 4,
+      "repeat": 1,
+      "elapsed_ms": 3633.199,
+      "verified": true,
+      "logical_tasks": 48,
+      "cooperation": {
+        "enabled": true,
+        "coalescing": true,
+        "cache_entries": 48,
+        "hits": 0,
+        "coalesced": 0,
+        "misses": 48,
+        "fanout": 0,
+        "executions": 48,
+        "expired": 0
+      },
+      "batch14": {
+        "bulk_batches": 4,
+        "bulk_submitted": 48,
+        "durable_writes": 148,
+        "fast_executions": 0,
+        "max_batch": 32,
+        "fast_path": false
+      }
+    },
+    {
+      "workload": "unique",
+      "stage": "P4",
+      "workers": 4,
+      "repeat": 1,
+      "elapsed_ms": 3272.4014,
+      "verified": true,
+      "logical_tasks": 48,
+      "cooperation": {
+        "enabled": true,
+        "coalescing": true,
+        "cache_entries": 48,
+        "hits": 0,
+        "coalesced": 0,
+        "misses": 48,
+        "fanout": 0,
+        "executions": 48,
+        "expired": 0
+      },
+      "batch14": {
+        "bulk_batches": 4,
+        "bulk_submitted": 48,
+        "durable_writes": 148,
+        "fast_executions": 0,
+        "max_batch": 32,
+        "fast_path": false
+      }
+    },
+    {
+      "workload": "unique",
+      "stage": "P5",
+      "workers": 4,
+      "repeat": 1,
+      "elapsed_ms": 52.1938,
+      "verified": true,
+      "logical_tasks": 48,
+      "cooperation": {
+        "enabled": true,
+        "coalescing": true,
+        "cache_entries": 48,
+        "hits": 0,
+        "coalesced": 0,
+        "misses": 48,
+        "fanout": 0,
+        "executions": 48,
+        "expired": 0
+      },
+      "batch14": {
+        "bulk_batches": 4,
+        "bulk_submitted": 48,
+        "durable_writes": 4,
+        "fast_executions": 48,
+        "max_batch": 32,
+        "fast_path": true
+      }
+    },
+    {
+      "workload": "unique",
+      "stage": "P5",
+      "workers": 4,
+      "repeat": 2,
+      "elapsed_ms": 47.9178,
+      "verified": true,
+      "logical_tasks": 48,
+      "cooperation": {
+        "enabled": true,
+        "coalescing": true,
+        "cache_entries": 48,
+        "hits": 0,
+        "coalesced": 0,
+        "misses": 48,
+        "fanout": 0,
+        "executions": 48,
+        "expired": 0
+      },
+      "batch14": {
+        "bulk_batches": 4,
+        "bulk_submitted": 48,
+        "durable_writes": 4,
+        "fast_executions": 48,
+        "max_batch": 32,
+        "fast_path": true
+      }
+    },
+    {
+      "workload": "unique",
+      "stage": "P4",
+      "workers": 4,
+      "repeat": 2,
+      "elapsed_ms": 3339.2548,
+      "verified": true,
+      "logical_tasks": 48,
+      "cooperation": {
+        "enabled": true,
+        "coalescing": true,
+        "cache_entries": 48,
+        "hits": 0,
+        "coalesced": 0,
+        "misses": 48,
+        "fanout": 0,
+        "executions": 48,
+        "expired": 0
+      },
+      "batch14": {
+        "bulk_batches": 4,
+        "bulk_submitted": 48,
+        "durable_writes": 148,
+        "fast_executions": 0,
+        "max_batch": 32,
+        "fast_path": false
+      }
+    },
+    {
+      "workload": "unique",
+      "stage": "P3",
+      "workers": 4,
+      "repeat": 2,
+      "elapsed_ms": 3491.5995,
+      "verified": true,
+      "logical_tasks": 48,
+      "cooperation": {
+        "enabled": true,
+        "coalescing": true,
+        "cache_entries": 48,
+        "hits": 0,
+        "coalesced": 0,
+        "misses": 48,
+        "fanout": 0,
+        "executions": 48,
+        "expired": 0
+      },
+      "batch14": {
+        "bulk_batches": 4,
+        "bulk_submitted": 48,
+        "durable_writes": 148,
+        "fast_executions": 0,
+        "max_batch": 32,
+        "fast_path": false
+      }
+    },
+    {
+      "workload": "unique",
+      "stage": "P2",
+      "workers": 4,
+      "repeat": 2,
+      "elapsed_ms": 5013.9883,
+      "verified": true,
+      "logical_tasks": 48,
+      "cooperation": {
+        "enabled": true,
+        "coalescing": true,
+        "cache_entries": 48,
+        "hits": 0,
+        "coalesced": 0,
+        "misses": 48,
+        "fanout": 0,
+        "executions": 48,
+        "expired": 0
+      },
+      "batch14": null
+    },
+    {
+      "workload": "unique",
+      "stage": "P1",
+      "workers": 4,
+      "repeat": 2,
+      "elapsed_ms": 4421.5565,
+      "verified": true,
+      "logical_tasks": 48,
+      "cooperation": null,
+      "batch14": null
+    },
+    {
+      "workload": "unique",
+      "stage": "P0",
+      "workers": 1,
+      "repeat": 2,
+      "elapsed_ms": 11216.7256,
+      "verified": true,
+      "logical_tasks": 48,
+      "cooperation": null,
+      "batch14": null
+    }
+  ],
+  "notes": [
+    "P0 V12/1, P1 V12/4, P2 V13/4, P3 V14/4 batch envoi, P4 V14/4 batch envoi et lecture, P5 fastpath local borne en plus.",
+    "Les facteurs par palier sont des rapports de temps sur la MEME charge ; pas de multiplication avec V10. Le palier P5 execute certaines taches sur le coordinateur et non sur les workers.",
+    "La selection privilegie le plus rapide des paliers P2/P3/P4 pour ne pas imposer une regression.",
+    "Tests localhost uniquement ; pas de datacenter physique ni de preuve de x100 universel.",
+    "Mesures incluant soumission HTTP, coordination, calcul et recuperation de fin de taches ; hors lancement du serveur.",
+    "Resultats controles localement avec le calcul de reference avant validation."
+  ]
+}
