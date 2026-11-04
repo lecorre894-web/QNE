@@ -1,0 +1,5 @@
+# Local datacenter build context; no secrets or images tracked.
+datacenter/build/
+datacenter/secrets/
+*.tmp
+*.log

@@ -1,0 +1,376 @@
+{
+  "schema": "qne.v13.cooperative_bench/1",
+  "status": "PASSED",
+  "machine": "linux/x64",
+  "node": "v22.16.0",
+  "all_outputs_verified": true,
+  "repeat": 2,
+  "jobs_per_pass": 24,
+  "passes_per_trial": 2,
+  "workloads": [
+    "repeated",
+    "unique"
+  ],
+  "stages": [
+    "V12-1",
+    "V12-4",
+    "V13-1",
+    "V13-2",
+    "V13-4"
+  ],
+  "summary": {
+    "repeated": {
+      "baseline_v12_1_ms": 2184.45605,
+      "v12_4_ms": 738.00645,
+      "v13_1_ms": 398.83050000000003,
+      "v13_2_ms": 239.32274999999998,
+      "v13_4_ms": 237.04215,
+      "gain_distribution": 2.9599,
+      "gain_cooperation_after_distribution": 3.1134,
+      "gain_cumulatif_direct": 9.2155,
+      "multiplication_compatible": 9.2155
+    },
+    "unique": {
+      "baseline_v12_1_ms": 1869.81895,
+      "v12_4_ms": 711.9292499999999,
+      "v13_1_ms": 1940.6747,
+      "v13_2_ms": 1243.3372,
+      "v13_4_ms": 712.8757499999999,
+      "gain_distribution": 2.6264,
+      "gain_cooperation_after_distribution": 0.9987,
+      "gain_cumulatif_direct": 2.6229,
+      "multiplication_compatible": 2.6229
+    }
+  },
+  "measurements": [
+    {
+      "workload": "repeated",
+      "variant": "v12",
+      "workers": 1,
+      "repeat": 1,
+      "elapsed_ms": 2381.5496,
+      "tasks": 48,
+      "verified": true,
+      "cooperation": null
+    },
+    {
+      "workload": "repeated",
+      "variant": "v12",
+      "workers": 4,
+      "repeat": 1,
+      "elapsed_ms": 759.2959,
+      "tasks": 48,
+      "verified": true,
+      "cooperation": null
+    },
+    {
+      "workload": "repeated",
+      "variant": "v13",
+      "workers": 1,
+      "repeat": 1,
+      "elapsed_ms": 408.3169,
+      "tasks": 48,
+      "verified": true,
+      "cooperation": {
+        "enabled": true,
+        "coalescing": true,
+        "cache_entries": 6,
+        "hits": 24,
+        "coalesced": 18,
+        "misses": 6,
+        "fanout": 18,
+        "executions": 6,
+        "expired": 0
+      }
+    },
+    {
+      "workload": "repeated",
+      "variant": "v13",
+      "workers": 2,
+      "repeat": 1,
+      "elapsed_ms": 250.9633,
+      "tasks": 48,
+      "verified": true,
+      "cooperation": {
+        "enabled": true,
+        "coalescing": true,
+        "cache_entries": 6,
+        "hits": 24,
+        "coalesced": 18,
+        "misses": 6,
+        "fanout": 18,
+        "executions": 6,
+        "expired": 0
+      }
+    },
+    {
+      "workload": "repeated",
+      "variant": "v13",
+      "workers": 4,
+      "repeat": 1,
+      "elapsed_ms": 239.4795,
+      "tasks": 48,
+      "verified": true,
+      "cooperation": {
+        "enabled": true,
+        "coalescing": true,
+        "cache_entries": 6,
+        "hits": 24,
+        "coalesced": 18,
+        "misses": 6,
+        "fanout": 18,
+        "executions": 6,
+        "expired": 0
+      }
+    },
+    {
+      "workload": "repeated",
+      "variant": "v13",
+      "workers": 4,
+      "repeat": 2,
+      "elapsed_ms": 234.6048,
+      "tasks": 48,
+      "verified": true,
+      "cooperation": {
+        "enabled": true,
+        "coalescing": true,
+        "cache_entries": 6,
+        "hits": 24,
+        "coalesced": 18,
+        "misses": 6,
+        "fanout": 18,
+        "executions": 6,
+        "expired": 0
+      }
+    },
+    {
+      "workload": "repeated",
+      "variant": "v13",
+      "workers": 2,
+      "repeat": 2,
+      "elapsed_ms": 227.6822,
+      "tasks": 48,
+      "verified": true,
+      "cooperation": {
+        "enabled": true,
+        "coalescing": true,
+        "cache_entries": 6,
+        "hits": 24,
+        "coalesced": 18,
+        "misses": 6,
+        "fanout": 18,
+        "executions": 6,
+        "expired": 0
+      }
+    },
+    {
+      "workload": "repeated",
+      "variant": "v13",
+      "workers": 1,
+      "repeat": 2,
+      "elapsed_ms": 389.3441,
+      "tasks": 48,
+      "verified": true,
+      "cooperation": {
+        "enabled": true,
+        "coalescing": true,
+        "cache_entries": 6,
+        "hits": 24,
+        "coalesced": 18,
+        "misses": 6,
+        "fanout": 18,
+        "executions": 6,
+        "expired": 0
+      }
+    },
+    {
+      "workload": "repeated",
+      "variant": "v12",
+      "workers": 4,
+      "repeat": 2,
+      "elapsed_ms": 716.717,
+      "tasks": 48,
+      "verified": true,
+      "cooperation": null
+    },
+    {
+      "workload": "repeated",
+      "variant": "v12",
+      "workers": 1,
+      "repeat": 2,
+      "elapsed_ms": 1987.3625,
+      "tasks": 48,
+      "verified": true,
+      "cooperation": null
+    },
+    {
+      "workload": "unique",
+      "variant": "v12",
+      "workers": 1,
+      "repeat": 1,
+      "elapsed_ms": 1889.9734,
+      "tasks": 48,
+      "verified": true,
+      "cooperation": null
+    },
+    {
+      "workload": "unique",
+      "variant": "v12",
+      "workers": 4,
+      "repeat": 1,
+      "elapsed_ms": 710.9286,
+      "tasks": 48,
+      "verified": true,
+      "cooperation": null
+    },
+    {
+      "workload": "unique",
+      "variant": "v13",
+      "workers": 1,
+      "repeat": 1,
+      "elapsed_ms": 1901.0562,
+      "tasks": 48,
+      "verified": true,
+      "cooperation": {
+        "enabled": true,
+        "coalescing": true,
+        "cache_entries": 48,
+        "hits": 0,
+        "coalesced": 0,
+        "misses": 48,
+        "fanout": 0,
+        "executions": 48,
+        "expired": 0
+      }
+    },
+    {
+      "workload": "unique",
+      "variant": "v13",
+      "workers": 2,
+      "repeat": 1,
+      "elapsed_ms": 1377.8997,
+      "tasks": 48,
+      "verified": true,
+      "cooperation": {
+        "enabled": true,
+        "coalescing": true,
+        "cache_entries": 48,
+        "hits": 0,
+        "coalesced": 0,
+        "misses": 48,
+        "fanout": 0,
+        "executions": 48,
+        "expired": 0
+      }
+    },
+    {
+      "workload": "unique",
+      "variant": "v13",
+      "workers": 4,
+      "repeat": 1,
+      "elapsed_ms": 711.4651,
+      "tasks": 48,
+      "verified": true,
+      "cooperation": {
+        "enabled": true,
+        "coalescing": true,
+        "cache_entries": 48,
+        "hits": 0,
+        "coalesced": 0,
+        "misses": 48,
+        "fanout": 0,
+        "executions": 48,
+        "expired": 0
+      }
+    },
+    {
+      "workload": "unique",
+      "variant": "v13",
+      "workers": 4,
+      "repeat": 2,
+      "elapsed_ms": 714.2864,
+      "tasks": 48,
+      "verified": true,
+      "cooperation": {
+        "enabled": true,
+        "coalescing": true,
+        "cache_entries": 48,
+        "hits": 0,
+        "coalesced": 0,
+        "misses": 48,
+        "fanout": 0,
+        "executions": 48,
+        "expired": 0
+      }
+    },
+    {
+      "workload": "unique",
+      "variant": "v13",
+      "workers": 2,
+      "repeat": 2,
+      "elapsed_ms": 1108.7747,
+      "tasks": 48,
+      "verified": true,
+      "cooperation": {
+        "enabled": true,
+        "coalescing": true,
+        "cache_entries": 48,
+        "hits": 0,
+        "coalesced": 0,
+        "misses": 48,
+        "fanout": 0,
+        "executions": 48,
+        "expired": 0
+      }
+    },
+    {
+      "workload": "unique",
+      "variant": "v13",
+      "workers": 1,
+      "repeat": 2,
+      "elapsed_ms": 1980.2932,
+      "tasks": 48,
+      "verified": true,
+      "cooperation": {
+        "enabled": true,
+        "coalescing": true,
+        "cache_entries": 48,
+        "hits": 0,
+        "coalesced": 0,
+        "misses": 48,
+        "fanout": 0,
+        "executions": 48,
+        "expired": 0
+      }
+    },
+    {
+      "workload": "unique",
+      "variant": "v12",
+      "workers": 4,
+      "repeat": 2,
+      "elapsed_ms": 712.9299,
+      "tasks": 48,
+      "verified": true,
+      "cooperation": null
+    },
+    {
+      "workload": "unique",
+      "variant": "v12",
+      "workers": 1,
+      "repeat": 2,
+      "elapsed_ms": 1849.6645,
+      "tasks": 48,
+      "verified": true,
+      "cooperation": null
+    }
+  ],
+  "notes": [
+    "Ratios calcules sur la meme charge et les memes operations.",
+    "Gain cumulatif = rapport direct des temps; facteurs telescopiques non independants.",
+    "V13 peut ralentir sur charge unique, et n accelere pas les applications arbitraires.",
+    "Les temps incluent la soumission HTTP, l ordonnancement et le traitement des taches, mais pas le demarrage des services.",
+    "Aucune execution datacenter ou connexion distante ne fait partie du test."
+  ],
+  "label": "REFERENCE_LINUX_NON_MOTOROLA",
+  "origin": "Tests sur machine Linux de preparation, pas le Motorola"
+}

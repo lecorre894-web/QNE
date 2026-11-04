@@ -1,0 +1,38 @@
+# Demonstration of one-host multi-container networking only. NOT datacenter HA.
+# Build context is generated with prepare_context.sh from exact V12/V13 sources.
+services:
+  coordinator:
+    build: {context: ./build}
+    command: ["node", "qne_v13/coordinator.js"]
+    environment:
+      QNE_V12_HOST: "0.0.0.0"
+      QNE_V12_PORT: "17849"
+      QNE_V12_DATA: "/var/lib/qne"
+      QNE_V12_SECRET_FILE: "/run/secrets/cluster_token"
+      QNE_V12_TLS_CERT: "/run/secrets/server_cert"
+      QNE_V12_TLS_KEY: "/run/secrets/server_key"
+      QNE_V13_CACHE: "1"
+      QNE_V13_COALESCE: "1"
+    secrets: [cluster_token, server_cert, server_key]
+    volumes: [qne_state:/var/lib/qne]
+    expose: ["17849"]
+    restart: unless-stopped
+  worker:
+    build: {context: ./build}
+    command: ["node", "qne_v13/worker.js"]
+    environment:
+      QNE_ROOT: "/opt/QNE"
+      QNE_V12_URL: "https://coordinator:17849"
+      QNE_V12_SECRET_FILE: "/run/secrets/cluster_token"
+      QNE_V12_CA_FILE: "/run/secrets/ca_cert"
+      QNE_V12_POLL_MS: "200"
+    secrets: [cluster_token, ca_cert]
+    depends_on: [coordinator]
+    restart: unless-stopped
+secrets:
+  cluster_token: {file: ./secrets/cluster_token}
+  server_cert: {file: ./secrets/server.crt}
+  server_key: {file: ./secrets/server.key}
+  ca_cert: {file: ./secrets/ca.crt}
+volumes:
+  qne_state:

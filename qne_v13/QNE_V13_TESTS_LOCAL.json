@@ -1,0 +1,21 @@
+{
+  "schema": "qne.v13.e2e/1",
+  "status": "PASSED",
+  "checks": 21,
+  "network": "loopback",
+  "workers": 2,
+  "tasks_verified": 24,
+  "cooperation": {
+    "enabled": true,
+    "coalescing": true,
+    "cache_entries": 3,
+    "hits": 0,
+    "coalesced": 21,
+    "misses": 3,
+    "fanout": 21,
+    "executions": 3,
+    "expired": 0
+  },
+  "originals_modified": false,
+  "scope": "Test local ; aucun datacenter physique."
+}
